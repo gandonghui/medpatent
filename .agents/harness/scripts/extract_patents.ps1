@@ -1,4 +1,4 @@
-$outDir = "c:\Users\gan\medpatent\doc\downloaded_patents"
+$outDir = "c:\Users\gan\medpatent\downloaded_patents"
 if (-Not (Test-Path $outDir)) { New-Item -ItemType Directory -Path $outDir }
 $data = Get-Content search_results.json | ConvertFrom-Json
 foreach ($item in $data.results) {

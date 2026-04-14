@@ -17,7 +17,7 @@ Standards for patent searching, prior art identification, and result logging.
 ## 🚩 Rule 4: Data Hand-off & Tooling
 - **API Setup**: Ensure the Valyu API key is configured (`node search.mjs setup <key>`) prior to executing `patents-search`.
 - **Results Extraction**: For Windows environments without `jq`, parse the JSON arrays using PowerShell: `Get-Content <file.json> | ConvertFrom-Json` to extract required `cpc_classifications` and `patent_number`.
-- **Pre-Classification Delivery**: Automatically export the full patent content to individual Markdown files (e.g., `doc/downloaded_patents/[PatentID].md`) so that they can be digested systematically by the examiner skill.
+- **Pre-Classification Delivery**: Automatically export the full patent content to individual Markdown files (e.g., `downloaded_patents/[PatentID].md`) so that they can be digested systematically by the examiner skill.
 
 ## 📓 Search Log Template
 ```markdown

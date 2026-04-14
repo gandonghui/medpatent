@@ -10,15 +10,15 @@ metadata:
 
 # 🛠️ Harness Maintainer (Architecture Caretaker & Trace Analyzer)
 
-You are responsible for the health, accuracy, and continuous self-improvement of the **Mihe (碰杯)** project's AI infrastructure located in `.agents/harness`.
-You act as both a **Doc Gardener** (keeping context minimal) and a **Trace Analyzer** (preventing repeating failures).
+You are responsible for the health, accuracy, and continuous self-improvement of the **MedPatent** project's AI infrastructure located in `.agents/harness`.
+You act as both a **Doc Gardener** (keeping context minimal) and a **Trace Analyzer** (preventing repeating failures) in accordance with the **2026 AI Engineering Paradigm**.
 
 ## 📜 Progressive Disclosure (Core Files)
 
 - **`../../harness/router.md`**: The definitive context loading map.
 - **`../../harness/FAULT_DIARY.md`**: The recurring fault system of record.
-- **`../../harness/references/`**: Project-wide invariants and standards.
-- **`../../trajectories/`**: Ongoing Agent trajectory logs (Doom-Loop data source).
+- **`../../harness/references/`**: Project-wide standards (Search, Classification, Parsing, Drafting).
+- **`../../harness/scripts/`**: Automation scripts (e.g., `extract_patents.ps1`).
 
 ---
 
@@ -26,32 +26,32 @@ You act as both a **Doc Gardener** (keeping context minimal) and a **Trace Analy
 
 ### Step 1: Trace Analysis & Fault Recording
 Instead of just waiting for other agents to report bugs, actively analyze the recent agent activity logs:
-1. Scan `../../trajectories/` for "Doom Loops" (where a file was edited 3-5+ times without success or where similar prompts repeated).
+1. Scan `../../trajectories/` (if available) for "Doom Loops" (where a file was edited 3-5+ times or where similar prompts repeated).
 2. Distill the root failure mode into a new entry.
 3. Load **`../../harness/FAULT_DIARY.md`**.
-4. Format the new entry according to the existing table schema.
-5. **MANDATORY**: Ensure the "Permanent Fix / Mitigation" column provides actionable, testable code-level advice to prevent this specific loop for future agents.
+4. **MANDATORY**: For every patent-related fault, ensure the "Fix/Mitigation" enforces specific column and line range citations for claims.
+5. Format the new entry according to the existing table schema.
 
-### Step 2: Skill/Domain Registration
+### Step 2: Skill/Domain Registration & Layering
 When a new local skill is created or a new reference file is added:
 1. Load **`../../harness/router.md`**.
-2. Identify the correct **Domain** (UI, Backend, etc.).
+2. Identify the correct **Domain** (Search, Analysis, Drafting, etc.).
 3. Append the new skill path or reference file path to the domain's list.
-4. Verify that the file link is valid from the root workspace.
+4. If a new capability is foundational, update **`../../Agents.md`** to reflect the new **Layer 0 (Harness)** or **Layer 3 (Persona)** skills.
 
 ### Step 3: Reference Centralization & Doc Gardening (Garbage Collection)
-If you discover a procedural standard that is being duplicated across multiple local skills or is no longer relevant:
-1. Execute structural checks or manually review codebase rules to ensure all constraints in `references/` still apply to the actual code.
-2. Move valid duplicative content to a new or existing file in `../../harness/references/`.
-3. **Doc-Gardening**: Prune and delete dead rules, inactive plans in `doc/exec-plans/active/`, and out-of-date patterns from `router.md` to keep context lightweight.
-4. Update the affected `SKILL.md` files to point to centralized locations.
+If you discover a procedural standard that is being duplicated across multiple local skills:
+1. Move valid duplicative content to a centralized file in `../../harness/references/`.
+2. **Doc-Gardening**: Prune and delete dead rules, redundant plans in `.agents/plans/`, and out-of-date patterns from `router.md` to fight **Context Rot**.
+3. Update the affected `SKILL.md` files to point to centralized locations.
 
-### Step 4: Health Check & Architecture Policing
-1. Run `python ../../harness/scripts/harness_health_check.py` (if available) to validate markdown files.
-2. Enforce strict Architectural Boundaries (e.g., UI should not query Data directly if there's a strict boundary logic). Flag and warn about deviations.
-3. Fix any reported broken links or orphaned files.
-4. Report the health status and newly distilled Guardrails to the user.
+### Step 4: Tooling Maintenance & Health Check
+1. Ensure scripts in `../../harness/scripts/` (like `extract_patents.ps1`) are documented and functional.
+2. Fix any reported broken links or orphaned files in the harness directory.
+3. Report the health status and newly distilled Guardrails to the user.
 
 ## ⚠️ Gotchas (Maintenance)
-- **Broken Links**: Relative paths in `router.md` must be correct relative to the task execution environment.
-- **Stale Faults**: Periodically review the fault diary to see if any older entries can be consolidated into `architecture_constraints.md` or deleted entirely due to framework upgrades.
+- **Context Rot**: Overloading `router.md` with too many global references will degrade model performance. Keep domains focused.
+- **Statutory Accuracy**: Every rule change in `classification_guidelines.md` must be reconcilable with actual USPTO/MPEP requirements.
+- **Broken Pipes**: Ensure PowerShell scripts in `harness/scripts/` handle Windows-specific path separators and character encoding (UTF-8).
+
