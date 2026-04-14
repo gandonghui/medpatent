@@ -1,10 +1,14 @@
 $outDir = "c:\Users\gan\medpatent\downloaded_patents"
 if (-Not (Test-Path $outDir)) { New-Item -ItemType Directory -Path $outDir }
-$data = Get-Content search_results.json | ConvertFrom-Json
+$data = Get-Content "c:\Users\gan\medpatent\.agents\harness\data\search_results\search_results.json" | ConvertFrom-Json
 foreach ($item in $data.results) {
     $patentNum = $item.metadata.bibliographic_data.patent_number
-    if (-not $patentNum) { $patentNum = $item.title -replace '[^a-zA-Z0-9_\-]', '_' }
-    $file = Join-Path $outDir "$patentNum.md"
+    if (-not $patentNum) { 
+        $patentNum = $item.title -replace '[^a-zA-Z0-9]', '_' 
+    }
+    # Unify naming: us_1234567_b2 style
+    $safeName = $patentNum.ToLower().Replace("-", "_")
+    $file = Join-Path $outDir "$safeName.md"
     $content = "# $($item.title)`r`n`r`n**Patent Number:** $patentNum`r`n**URL:** $($item.url)`r`n`r`n## Content / Abstract`r`n`r`n$($item.content)"
     $content | Out-File -FilePath $file -Encoding utf8
 }

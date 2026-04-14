@@ -15,9 +15,10 @@ Standards for patent searching, prior art identification, and result logging.
 - Compare candidates to the core technical problem defined in Step 1.
 
 ## 🚩 Rule 4: Data Hand-off & Tooling
-- **API Setup**: Ensure the Valyu API key is configured (`node search.mjs setup <key>`) prior to executing `patents-search`.
-- **Results Extraction**: For Windows environments without `jq`, parse the JSON arrays using PowerShell: `Get-Content <file.json> | ConvertFrom-Json` to extract required `cpc_classifications` and `patent_number`.
-- **Pre-Classification Delivery**: Automatically export the full patent content to individual Markdown files (e.g., `downloaded_patents/[PatentID].md`) so that they can be digested systematically by the examiner skill.
+- **API Setup**: Ensure the Valyu API key is configured (`node search.mjs setup <key>`) or BigQuery is authenticated (`gcloud auth application-default login --scopes=https://www.googleapis.com/auth/cloud-platform`).
+- **Results Extraction**: For Windows environments without `jq`, parse JSON using PowerShell: `Get-Content -Encoding utf8 .agents/harness/data/search_results/bq_results.json | ConvertFrom-Json`. Alternatively, use the centralized harness script: `python ../scripts/unify_patent_names.py`.
+- **Character Encoding Safety**: **MANDATORY**: When piping from PowerShell to files, use `-Encoding utf8`. When reading in Python, use `utf-8-sig` to handle potential BoMs to prevent `UnicodeDecodeError`.
+- **Pre-Classification Delivery**: Automatically export the full patent content to individual Markdown files (e.g., `downloaded_patents/[PatentID].md`) using `.agents/skills/bigquery-patent-search/scripts/download_full_patents.py`.
 
 ## 📓 Search Log Template
 ```markdown

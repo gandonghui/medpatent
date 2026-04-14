@@ -18,7 +18,7 @@ You act as both a **Doc Gardener** (keeping context minimal) and a **Trace Analy
 - **`../../harness/router.md`**: The definitive context loading map.
 - **`../../harness/FAULT_DIARY.md`**: The recurring fault system of record.
 - **`../../harness/references/`**: Project-wide standards (Search, Classification, Parsing, Drafting).
-- **`../../harness/scripts/`**: Automation scripts (e.g., `extract_patents.ps1`).
+- **`../../harness/scripts/`**: Automation scripts (e.g., `extract_patents.ps1`, `unify_patent_names.py`).
 
 ---
 
@@ -49,6 +49,14 @@ If you discover a procedural standard that is being duplicated across multiple l
 1. Ensure scripts in `../../harness/scripts/` (like `extract_patents.ps1`) are documented and functional.
 2. Fix any reported broken links or orphaned files in the harness directory.
 3. Report the health status and newly distilled Guardrails to the user.
+
+### Step 5: Post-Task Synchronize (PTS) Ritual [MANDATORY]
+Execute this ritual immediately after completing any business objective (Search, Analysis, Drafting) to prevent technical debt:
+1. **Fault Harvesting**: Review the task trajectory. Register any new failure modes (403, 400, auth, encoding) in `../../harness/FAULT_DIARY.md`.
+2. **Routing Audit**: If new scripts or skills were added, register them in `../../harness/router.md`.
+3. **Persona Sync**: Update `../../Agents.md` if a specialized persona needs access to the new harness capabilities.
+4. **Reference Hardening**: Distill "lessons learned" into `../../harness/references/*.md`.
+5. **Context Cleanup**: Delete temporary plans in `.agents/plans/` and prune trash files in `harness/data/` to keep the context window lean.
 
 ## ⚠️ Gotchas (Maintenance)
 - **Context Rot**: Overloading `router.md` with too many global references will degrade model performance. Keep domains focused.

@@ -11,7 +11,19 @@
 MedPatent 项目完全由内置 AI Agent 技能驱动。作为人类用户，您的核心任务不是写代码，而是“布置任务并提供凭证”。
 
 ### 1. 前置环境配置
-本项目部分组件依赖 [Valyu API](https://valyu.network/) 执行高精度的全球语义专利检索。在使用前，请开启终端并执行以下配置动作以挂载您的个人密钥：
+
+本项目支持双引擎专利搜索：
+
+#### A. Google BigQuery 引擎 (推荐)
+适用于海量全球专利数据检索。需配置 Google Cloud 项目：
+```powershell
+# 认证并设置项目 (示例 ID: medpatent-493307)
+gcloud auth application-default login --scopes=https://www.googleapis.com/auth/cloud-platform
+gcloud config set project <YOUR_PROJECT_ID>
+```
+
+#### B. Valyu 语义引擎
+适用于高精度的实时语义检索：
 ```powershell
 # 进入 search 工具所在目录并执行注册
 cd .agents/skills/patents-search
@@ -33,7 +45,7 @@ node scripts/search.mjs setup <YOUR_VALYU_API_KEY>
 - **Agent 动作**：将不会盲目开写，而在磁盘创建持久化计划书并追踪状态，防止未来交互中发生上下文遗忘 (Context Rot)。
 
 ### 阶段二：精准召回与实体库提存 (Search & Extraction)
-- **指令示例**："使用 `patents-search` 检索技术集合。拿到返回结果后，必须使用 `.agents/harness/scripts/extract_patents.ps1` 脚本，将搜回的 JSON 内容导出成结构化档案到 `/downloaded_patents/`。"
+- **指令示例**："使用 `bigquery-patent-search` 检索技术集合。拿到返回结果后，必须使用 `.agents/harness/scripts/unify_patent_names.py` 脚本，将搜回的内容导出为标准命名的 Markdown 档案（格式：`country_number_kind.md`）到 `/downloaded_patents/`。"
 - **Agent 动作**：执行 Boolean 拓扑或 Semantic 组合检索，突破幻觉红线。它每次都会确保本地有可查的 Markdown 全文本标本，满足“可核查性”。
 
 ### 阶段三：法律检查与重叠矩阵组建 (Examination & Matrix)
@@ -51,9 +63,10 @@ node scripts/search.mjs setup <YOUR_VALYU_API_KEY>
 为什么要这样限制流程？这套系统不是简单“一次发十几个 prompt 给模型”。为了保持机器的稳定性与动作耐久性，我们在引擎周围加装了重型装甲包（Harness）：
 
 * **`AGENTS.md` (主协议)**：是执行一切任务的基础。它将项目分割为不同的子人设身份。
-* **`.agents/harness/router.md` (按需加载组件)**：严禁 Agent “一口吞进所有规则”。Router 文件告诉系统什么场景下该载入哪一张指导卡片，以优化 Token 分配。
+* **`.agents/harness/router.md` (按需加载组件)**：严禁 Agent “一口吞进所有规则”。Router 文件告诉系统什么场景下该载入哪一张指导卡片，以优化 Token 分配。同时承载了 `.agents/harness/scripts/` 下的自动化原子脚本。
 * **`.agents/harness/FAULT_DIARY.md` (事故与故障录记)**：Agent 宕机（如：陷入循环卡死、找不到API环境）时登记的“黑匣子记录带”。遇到任何报错，应让 Agent 先看这里避免又跌坑里。
 * **`.agents/harness/references/` (执行细则宝典)**：内置了从怎样防幻觉（`search_playbook.md`）到怎么进行法务打标分类（`classification_guidelines.md`）的微型基准指导手册。
+* **`.agents/harness/data/` (数据暂存区)**：存放检索中间态 JSON 结果，确保数据流向可追溯且 root 目录整洁。
 
 ---
 

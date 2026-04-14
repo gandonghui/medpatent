@@ -7,7 +7,7 @@ This file serves as **Layer 1: Project Root Context**. When operating in this re
 ## 🛠️ Project Context & Tech Stack
 - **Project Name**: medpatent
 - **Core Domain**: Patent Analysis, Prior Art Search, Claims Drafting, and Compliance Checking.
-- **Skill Layer (Local/Global)**: @[/patents-search], @[/patent-examiner], @[/patent-claims-analyzer], @[/patent-application-creator], @[/patent-architect], @[/systematic-debugging], @[/planning-with-files-zh]
+- **Skill Layer (Local/Global)**: @[/patents-search], @[/bigquery-patent-search], @[/patent-examiner], @[/patent-claims-analyzer], @[/patent-application-creator], @[/patent-architect], @[/systematic-debugging], @[/planning-with-files-zh]
 
 ## 🧱 Layer 0: Agent Harness (Always Active)
 The following skills form the base **Agent Harness**, providing the execution loop, context management, and cross-cutting principles:
@@ -32,7 +32,7 @@ The following skills form the base **Agent Harness**, providing the execution lo
 When a specific task is assigned, assume one of these specialized identities:
 
 ### 🔍 Patent Researcher (专利检索专家)
-- **Core Skills**: `patents-search`, `find-skills`
+- **Core Skills**: `patents-search`, `bigquery-patent-search`
 - **Responsibilities**: Execute Boolean/Semantic queries, extract IPC/CPC codes, and output standard markdown to `/downloaded_patents/`.
 - **Safety Zone**: 🟢 Finding exact matches. **Danger Zone**: 🔴 Hallucinating publication numbers.
 
