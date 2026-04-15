@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "skills": {
+    "patent-search-cn-us": {
+      "source": "xiaojiongqian/skills-hub",
+      "sourceType": "github",
+      "computedHash": "70cfc38c2fd91c536ab718aefc6f202a50c81d9a4622704a1dea7836e2cc44c8"
+    },
+    "patents-search": {
+      "source": "yorkeccak/scientific-skills",
+      "sourceType": "github",
+      "computedHash": "1e6f2fa5abff33d766dec489d22c82ef9ef3541fbe6a40171f309dd3d2b975e6"
+    },
+    "prior-art-search": {
+      "source": "robthepcguy/claude-patent-creator",
+      "sourceType": "github",
+      "computedHash": "888bed22fcc3db0184c8a4e7ea5e36bad1bab30405217727bb8ab2527d491699"
+    }
+  }
+}

@@ -1,0 +1,5 @@
+- `[/]` Create comprehensive search script (metadata-only)
+- `[ ]` Execute search across BigQuery (target 500+ records)
+- `[ ]` Save results to `doc/analysis/comprehensive_results.json`
+- `[ ]` Generate Patent Landscape Report `doc/analysis/comprehensive_3d_imaging_landscape.md`
+- `[ ]` Final review and cleanup

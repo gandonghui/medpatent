@@ -1,0 +1,323 @@
+[
+    {
+        "publication_number": "US-2024350121-A1",
+        "title": "Systems and methods for three-dimensional imaging",
+        "abstract": "A system may comprise an elongate flexible instrument including an imaging device and a localization sensor. The system may capture a first 2D image with the imaging device in a first imaging configuration and receive first localization data for the distal portion of the elongate flexible instrument from the localization sensor while the imaging device is in the first imaging configuration. The system may also create a first image data set including the first localization data and the first 2D image, capture a second 2D image with the imaging device in a second imaging configuration, and receive second localization data for the distal portion while the imaging device is in the second imaging configuration. The system may also create a second image data set including the second localization data and the second 2D image and generate a 3D image based on a plurality of image data sets.",
+        "filing_date": "20240419",
+        "grant_date": null,
+        "country": "US",
+        "cpc_codes": [
+            "A61B8/5207",
+            "A61B8/483",
+            "A61B8/466",
+            "A61B8/4254",
+            "A61B8/4461",
+            "A61B8/12",
+            "A61B8/4416",
+            "A61B8/4488",
+            "A61B8/4494",
+            "A61B8/54",
+            "A61B2034/2051",
+            "A61B2034/2061",
+            "A61B8/445",
+            "A61B8/0841",
+            "A61B34/20"
+        ],
+        "inventors": [
+            "SCHLESINGER, RANDALL L.",
+            "WONG, SERENA H."
+        ],
+        "assignee": "Intuitive Surgical Operations, Inc."
+    },
+    {
+        "publication_number": "US-2022414914-A1",
+        "title": "Systems and methods for determining a volume of resected tissue during a surgical procedure",
+        "abstract": "An exemplary tissue volume detection system accesses, during a surgical procedure involving resecting a piece of tissue from a body, a plurality of depth datasets for the resected piece of tissue. Each of the plurality of depth datasets is captured as a different portion of a surface of the resected piece of tissue is presented to an imaging device by an instrument that holds the resected piece of tissue in a manner that sequentially presents the different portions of the surface to the imaging device. During the surgical procedure and based on the depth datasets, the system generates a three-dimensional (3D) occupancy map that includes a set of voxels identified to be occupied by the resected piece of tissue. Based on the 3D occupancy map and still during the surgical procedure, the system determines an estimated volume of the resected piece of tissue. Corresponding systems and methods are also disclosed.",
+        "filing_date": "20201214",
+        "grant_date": null,
+        "country": "US",
+        "cpc_codes": [
+            "G06T2207/30004",
+            "G06T7/62",
+            "G06T7/593",
+            "G06T2210/21",
+            "G06T2207/10028",
+            "G06T15/06",
+            "G06T2207/10012"
+        ],
+        "inventors": [
+            "SHIRAZIAN, Pourya",
+            "AZIZIAN, Mahdi",
+            "MCLEOD, A. Jonathan",
+            "SHADEMAN, Azad"
+        ],
+        "assignee": "Intuitive Surgical Operations, Inc."
+    },
+    {
+        "publication_number": "US-12205315-B2",
+        "title": "Systems and methods for determining a volume of resected tissue during a surgical procedure",
+        "abstract": "An exemplary tissue volume detection system accesses, during a surgical procedure involving resecting a piece of tissue from a body, a plurality of depth datasets for the resected piece of tissue. Each of the plurality of depth datasets is captured as a different portion of a surface of the resected piece of tissue is presented to an imaging device by an instrument that holds the resected piece of tissue in a manner that sequentially presents the different portions of the surface to the imaging device. During the surgical procedure and based on the depth datasets, the system generates a three-dimensional (3D) occupancy map that includes a set of voxels identified to be occupied by the resected piece of tissue. Based on the 3D occupancy map and still during the surgical procedure, the system determines an estimated volume of the resected piece of tissue. Corresponding systems and methods are also disclosed.",
+        "filing_date": "20201214",
+        "grant_date": "20250121",
+        "country": "US",
+        "cpc_codes": [
+            "G06T2210/21",
+            "G06T2207/30004",
+            "G06T2207/10028",
+            "G06T2207/10012",
+            "G06T15/06",
+            "G06T7/593",
+            "G06T7/62"
+        ],
+        "inventors": [
+            "SHIRAZIAN, Pourya",
+            "AZIZIAN, Mahdi",
+            "MCLEOD, A. Jonathan",
+            "SHADEMAN, Azad"
+        ],
+        "assignee": "Intuitive Surgical Operations, Inc."
+    },
+    {
+        "publication_number": "US-2020022769-A1",
+        "title": "Surgical system with haptic feedback based upon quantitative three-dimensional imaging",
+        "abstract": "A system is provided to provide haptic feedback during a medical procedure comprising: a quantitative three-dimensional (Q3D); a surgical instrument disposed to deform a tissue structure; a haptic user interface device configured to provide an indication of tissue structure deformation in response to information indicative of the measure of tissue structure deformation; and a processor configured to produce a Q3D model that includes information indicative of a measure of tissue structure deformation and to provide the information indicative of the measure of tissue structure deformation to the haptic user interface device.",
+        "filing_date": "20190913",
+        "grant_date": null,
+        "country": "US",
+        "cpc_codes": [
+            "A61B2034/2059",
+            "A61B34/30",
+            "A61B34/32",
+            "A61B34/37",
+            "A61B34/20",
+            "A61B1/00055",
+            "A61B2017/00119",
+            "A61B34/76",
+            "A61B34/10",
+            "A61B1/04",
+            "A61B1/06",
+            "A61B1/044",
+            "A61B90/37",
+            "A61B1/00"
+        ],
+        "inventors": [
+            "PANESCU, DORIN",
+            "JONES, DANIEL H.",
+            "ALLENBY, CHRISTOPHER B."
+        ],
+        "assignee": "Intuitive Surgical Operations, Inc."
+    },
+    {
+        "publication_number": "US-11304771-B2",
+        "title": "Surgical system with haptic feedback based upon quantitative three-dimensional imaging",
+        "abstract": "A system is provided to provide haptic feedback during a medical procedure comprising: a quantitative three-dimensional (Q3D); a surgical instrument disposed to deform a tissue structure; a haptic user interface device configured to provide an indication of tissue structure deformation in response to information indicative of the measure of tissue structure deformation; and a processor configured to produce a Q3D model that includes information indicative of a measure of tissue structure deformation and to provide the information indicative of the measure of tissue structure deformation to the haptic user interface device.",
+        "filing_date": "20190913",
+        "grant_date": "20220419",
+        "country": "US",
+        "cpc_codes": [
+            "A61B1/044",
+            "A61B1/06",
+            "A61B2034/2059",
+            "A61B34/30",
+            "A61B34/20",
+            "A61B34/37",
+            "A61B34/32",
+            "A61B1/00055",
+            "A61B2017/00119",
+            "A61B34/76",
+            "A61B1/00",
+            "A61B34/10",
+            "A61B90/37",
+            "A61B1/04"
+        ],
+        "inventors": [
+            "PANESCU, DORIN",
+            "JONES, DANIEL H.",
+            "ALLENBY, CHRISTOPHER B."
+        ],
+        "assignee": "Intuitive Surgical Operations, Inc."
+    },
+    {
+        "publication_number": "US-2017181798-A1",
+        "title": "Quantitative three-dimensional imaging and printing of surgical implants",
+        "abstract": "A system to produce a replacement anatomical structure, comprising: a quantitative three-dimensional (Q3D) endoscope disposed to image a structure within a field of view that includes target tissue; at least one processor configured to: produce a first Q3D model of an anatomical structure that includes target tissue; produce a second Q3D model of the anatomical structure that includes remainder tissue in a location from which the target has been tissue removed; and produce a third Q3D model of a replacement structure based at least in part upon the first Q3D model and the second Q3D model.",
+        "filing_date": "20150328",
+        "grant_date": null,
+        "country": "US",
+        "cpc_codes": [
+            "A61B90/361",
+            "A61B34/37",
+            "A61B34/20",
+            "G06T19/006",
+            "G06T2207/10028",
+            "G02B23/2415",
+            "G06T15/005",
+            "A61B2034/2059",
+            "A61B2034/105",
+            "G06T2207/30008",
+            "A61B5/4851",
+            "A61B34/30",
+            "A61B34/32",
+            "G06T17/00",
+            "H04N13/30",
+            "G06T2207/10068",
+            "G06T2207/20221",
+            "H04N13/254",
+            "G02B23/2484",
+            "A61B2090/366",
+            "A61B2090/365",
+            "A61B1/0655",
+            "A61B1/00194",
+            "A61B1/0004",
+            "A61B1/000094",
+            "H04N13/232",
+            "A61B34/10",
+            "A61B1/00009",
+            "A61B1/04",
+            "H04N13/0253",
+            "A61B1/06",
+            "A61B1/0676",
+            "A61B1/05",
+            "A61B1/045",
+            "A61B1/042",
+            "A61B1/00165",
+            "A61B1/00149",
+            "A61B1/00089",
+            "A61B1/00055",
+            "A61B1/00045",
+            "A61B1/00006"
+        ],
+        "inventors": [
+            "PANESCU DORIN",
+            "JONES DANIEL H"
+        ],
+        "assignee": "Intuitive Surgical Operations, Inc."
+    },
+    {
+        "publication_number": "US-10334227-B2",
+        "title": "Quantitative three-dimensional imaging of surgical scenes from multiport perspectives",
+        "abstract": "A system is provided that includes a quantitative three-dimensional (Q3D) endoscope that is inserted through a first port providing access to a body cavity to a first position at which a first 3D image of a first portion of an anatomical structure is captured from a perspective of said endoscope. A first Q3D model is produced based upon the captured first image. The endoscope is inserted through a second port providing access to the body cavity to a second position at which a second image of a second portion of the anatomical structure is captured. A second quantitative Q3D model is produced based upon the captured second image. The first Q3D model and the second Q3D model are combined together to produce an expanded Q3D model of the anatomical structure. The expanded Q3D model can be stored for further manipulation or can be displayed in 3D.",
+        "filing_date": "20150328",
+        "grant_date": "20190625",
+        "country": "US",
+        "cpc_codes": [
+            "H04N23/56",
+            "H04N23/555",
+            "A61B2017/00119",
+            "H04N13/344",
+            "A61B90/37",
+            "A61B1/0005",
+            "A61B2090/364",
+            "G06T17/00",
+            "G06T2210/41",
+            "A61B34/37",
+            "H04N13/243",
+            "A61B17/00",
+            "A61B1/00",
+            "H04N5/2256",
+            "H04N2005/2255",
+            "A61B1/00009",
+            "A61B1/00194",
+            "A61B1/000094"
+        ],
+        "inventors": [
+            "PANESCU, DORIN",
+            "JONES, DANIEL H."
+        ],
+        "assignee": "Intuitive Surgical Operations, Inc."
+    },
+    {
+        "publication_number": "US-2017181808-A1",
+        "title": "Surgical system with haptic feedback based upon quantitative three-dimensional imaging",
+        "abstract": "A system is provided to provide haptic feedback during a medical procedure comprising: a quantitative three-dimensional (Q3D); a surgical instrument disposed to deform a tissue structure; a haptic user interface device configured to provide an indication of tissue structure deformation in response to information indicative of the measure of tissue structure deformation; and a processor configured to produce a Q3D model that includes information indicative of a measure of tissue structure deformation and to provide the information indicative of the measure of tissue structure deformation to the haptic user interface device.",
+        "filing_date": "20150328",
+        "grant_date": null,
+        "country": "US",
+        "cpc_codes": [
+            "A61B2034/2059",
+            "A61B34/76",
+            "A61B34/32",
+            "A61B34/30",
+            "A61B2017/00119",
+            "A61B34/20",
+            "A61B1/00055",
+            "A61B34/10",
+            "A61B34/37",
+            "A61B1/044",
+            "A61B1/06",
+            "A61B1/04",
+            "A61B1/00",
+            "A61B90/37"
+        ],
+        "inventors": [
+            "PANESCU DORIN",
+            "JONES DANIEL H",
+            "ALLENBY CHRISTOPHER"
+        ],
+        "assignee": "Intuitive Surgical Operations, Inc."
+    },
+    {
+        "publication_number": "US-2017180704-A1",
+        "title": "Quantitative three-dimensional imaging of surgical scenes from multiport perspectives",
+        "abstract": "A system is provided that includes a quantitative three-dimensional (Q3D) endoscope that is inserted through a first port providing access to a body cavity to a first position at which a first 3D image of a first portion of an anatomical structure is captured from a perspective of said endoscope. A first Q3D model is produced based upon the captured first image. The endoscope is inserted through a second port providing access to the body cavity to a second position at which a second image of a second portion of the anatomical structure is captured. A second quantitative Q3D model is produced based upon the captured second image. The first Q3D model and the second Q3D model are combined together to produce an expanded Q3D model of the anatomical structure. The expanded Q3D model can be stored for further manipulation or can be displayed in 3D.",
+        "filing_date": "20150328",
+        "grant_date": null,
+        "country": "US",
+        "cpc_codes": [
+            "H04N23/56",
+            "H04N23/555",
+            "G06T17/00",
+            "A61B34/37",
+            "A61B90/37",
+            "H04N13/243",
+            "A61B17/00",
+            "A61B1/0005",
+            "A61B2017/00119",
+            "A61B1/00",
+            "H04N13/344",
+            "A61B2090/364",
+            "G06T2210/41",
+            "A61B1/00194",
+            "A61B1/000094",
+            "H04N5/2256",
+            "H04N2005/2255",
+            "H04N13/0242",
+            "H04N13/044"
+        ],
+        "inventors": [
+            "PANESCU DORIN",
+            "JONES DANIEL H"
+        ],
+        "assignee": "Intuitive Surgical Operations, Inc."
+    },
+    {
+        "publication_number": "US-10555788-B2",
+        "title": "Surgical system with haptic feedback based upon quantitative three-dimensional imaging",
+        "abstract": "A system is provided to provide haptic feedback during a medical procedure comprising: a quantitative three-dimensional (Q3D) endoscope; a surgical instrument disposed to deform a tissue structure; a haptic user interface device configured to provide an indication of tissue structure deformation in response to information indicative of the measure of tissue structure deformation; and a processor configured to produce a Q3D model that includes information indicative of a measure of tissue structure deformation and to provide the information indicative of the measure of tissue structure deformation to the haptic user interface device.",
+        "filing_date": "20150328",
+        "grant_date": "20200211",
+        "country": "US",
+        "cpc_codes": [
+            "A61B34/32",
+            "A61B2034/2059",
+            "A61B34/30",
+            "A61B34/37",
+            "A61B34/20",
+            "A61B34/76",
+            "A61B34/10",
+            "A61B2017/00119",
+            "A61B1/00055",
+            "A61B1/06",
+            "A61B1/04",
+            "A61B1/044",
+            "A61B90/37",
+            "A61B1/00"
+        ],
+        "inventors": [
+            "PANESCU, DORIN",
+            "JONES, DANIEL H.",
+            "ALLENBY, Christopher"
+        ],
+        "assignee": "Intuitive Surgical Operations, Inc."
+    }
+]
