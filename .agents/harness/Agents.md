@@ -7,7 +7,7 @@ This document defines the specialized identities and operational guardrails for 
 ## 🔍 Patent Researcher (专利检索专家)
 *Primary Goal: Deliver hallucination-free prior art and technical landscape data.*
 
-- **Core Skills**: `patents-search`, `prior-art-search`
+- **Core Skills**: `lens-patent-search`, `patents-search`, `prior-art-search`
 - **Responsibilities**:
     - Build systematic Boolean/Semantic query clusters.
     - Log every search session in the `Search Log`.

@@ -15,6 +15,25 @@ Standards for patent searching, prior art identification, and result logging.
 - Compare candidates to the core technical problem defined in Step 1.
 
 ## 🚩 Rule 4: Data Hand-off & Tooling
+
+### Lens.org API（主推，结构化检索 + 全文下载）
+- **API Setup**: 在 `.env` 中配置 `LENS_API_KEY=your_token` 后，运行：
+  ```bash
+  python .agents/skills/lens-patent-search/scripts/lens_search.py "query" --limit 20
+  ```
+- **全文下载**: 检索后通过以下命令批量下载 Markdown 全文：
+  ```bash
+  python .agents/skills/lens-patent-search/scripts/lens_download.py \
+    --from-results .agents/harness/data/search_results/lens_latest.json --top 20
+  ```
+- **分析摘要**: 生成申请人/CPC/年份分布报告，并输出 `patent-claims-analyzer` 兼容 CSV：
+  ```bash
+  python .agents/skills/lens-patent-search/scripts/lens_analyze.py \
+    --from-results lens_xxx.json --output-report doc/analysis/report.md --output-csv claims.csv
+  ```
+- **Pre-Classification Delivery**: Markdown 文件自动存入 `downloaded_patents/{JUR}/` 子目录。
+
+### Valyu API（备选，语义检索）
 - **API Setup**: Ensure the Valyu API key is configured (`node search.mjs setup <key>`) prior to executing `patents-search`.
 - **Results Extraction**: For Windows environments without `jq`, parse the JSON arrays using PowerShell: `Get-Content <file.json> | ConvertFrom-Json` to extract required `cpc_classifications` and `patent_number`.
 - **Pre-Classification Delivery**: Automatically export the full patent content to individual Markdown files (e.g., `doc/downloaded_patents/[PatentID].md`) so that they can be digested systematically by the examiner skill.

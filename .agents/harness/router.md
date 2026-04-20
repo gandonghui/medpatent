@@ -17,9 +17,17 @@ Identify the **Primary Domain** of your task and load ONLY the specified referen
 
 ### 🔍 Patent Search & Prior Art (专利检索)
 *Primary Domain: Finding existing patents and identifying technical novelty.*
-- **Local Skills**: `../skills/patents-search`, `../skills/prior-art-search`
+- **Local Skills**:
+  - `../skills/patents-search` — Valyu 语义检索（英文全文语义）
+  - `../skills/lens-patent-search` — Lens.org API 检索（结构化 + 全文下载 + 分析摘要，**推荐首选**）
+  - `../skills/prior-art-search`
 - **Global Skills**: @[/find-skills]
 - **References**: `./references/search_playbook.md`
+
+> **选择指南**:
+> - 需要 **结构化过滤**（CPC代码/管辖区/日期/申请人）→ 使用 `lens-patent-search`
+> - 需要 **语义/自然语言** 宽泛检索 → 使用 `patents-search`（Valyu）
+> - 需要 **全文下载 + 分析摘要** → 必须使用 `lens-patent-search`
 
 ### 📥 Patent Download & Parsing (专利下载与解析)
 *Primary Domain: Extracting technical data from PDFs or XMLs.*

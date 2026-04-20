@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "source": "lens.org",
+    "query": "surgical vision",
+    "timestamp": "2026-04-19T17:21:52.862499",
+    "total_hits": 0,
+    "returned": 0,
+    "cpc": null,
+    "jurisdiction": null,
+    "assignee": "Intuitive",
+    "date_from": null,
+    "date_to": null,
+    "limit": 100
+  },
+  "raw": {
+    "total": 0,
+    "max_score": 0.0,
+    "data": []
+  }
+}

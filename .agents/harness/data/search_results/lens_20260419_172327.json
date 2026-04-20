@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "source": "lens.org",
+    "query": "US7727140B2 OR US8852174B2 OR US9452022B2",
+    "timestamp": "2026-04-19T17:23:27.566298",
+    "total_hits": 0,
+    "returned": 0,
+    "cpc": null,
+    "jurisdiction": null,
+    "assignee": null,
+    "date_from": null,
+    "date_to": null,
+    "limit": 10
+  },
+  "raw": {
+    "total": 0,
+    "max_score": 0.0,
+    "data": []
+  }
+}

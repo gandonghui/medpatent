@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "source": "lens.org",
+    "query_label": "Intuitive Operations Vision",
+    "timestamp": "2026-04-19T17:45:39.293897",
+    "total_hits": 0,
+    "payload": {
+      "query": {
+        "bool": {
+          "must": [
+            {
+              "query_string": {
+                "query": "\"Intuitive Surgical Operations\"",
+                "fields": [
+                  "biblio.parties.applicants.extracted_name.value"
+                ]
+              }
+            },
+            {
+              "query_string": {
+                "query": "3D OR vision OR image OR optical OR stereoscopic OR visualization",
+                "fields": [
+                  "biblio.title.text",
+                  "abstract.text"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "raw": {
+    "data": [],
+    "total": 0
+  }
+}

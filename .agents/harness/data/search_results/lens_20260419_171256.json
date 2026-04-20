@@ -1,0 +1,579 @@
+{
+  "meta": {
+    "source": "lens.org",
+    "query": "3D",
+    "timestamp": "2026-04-19T17:12:56.236000",
+    "total_hits": 390334,
+    "returned": 1,
+    "cpc": null,
+    "jurisdiction": null,
+    "assignee": null,
+    "date_from": null,
+    "date_to": null,
+    "limit": 1
+  },
+  "raw": {
+    "total": 390334,
+    "max_score": 11.692003,
+    "data": [
+      {
+        "lens_id": "149-306-438-089-587",
+        "biblio": {
+          "publication_reference": {
+            "jurisdiction": "JP",
+            "doc_number": "2019153290",
+            "kind": "A",
+            "date": "2019-09-12"
+          },
+          "application_reference": {
+            "jurisdiction": "JP",
+            "doc_number": "2019026907",
+            "kind": "A",
+            "date": "2019-02-18"
+          },
+          "application_number": "2019026907",
+          "priority_claims": {
+            "claims": [
+              {
+                "jurisdiction": "US",
+                "doc_number": "201815901117",
+                "kind": "A",
+                "date": "2018-02-21",
+                "linkage_type": "DEFAULT",
+                "sequence": 1
+              }
+            ],
+            "earliest_claim": {
+              "date": "2018-02-21"
+            }
+          },
+          "invention_title": [
+            {
+              "text": "SYSTEM AND METHOD FOR SIMULTANEOUS CONSIDERATION OF EDGES AND NORMALS IN IMAGE FEATURES BY VISION SYSTEM",
+              "lang": "en"
+            },
+            {
+              "text": "ビジョンシステムにより画像特徴におけるエッジと法線を同時に考慮するためのシステム及び方法",
+              "lang": "ja"
+            }
+          ],
+          "parties": {
+            "applicants": [
+              {
+                "extracted_name": {
+                  "value": "COGNEX CORP"
+                }
+              }
+            ],
+            "inventors": [
+              {
+                "sequence": 1,
+                "extracted_name": {
+                  "value": "ANDREW HOELSCHER"
+                }
+              },
+              {
+                "sequence": 2,
+                "extracted_name": {
+                  "value": "SIMON BARKER"
+                }
+              },
+              {
+                "sequence": 3,
+                "extracted_name": {
+                  "value": "ADAM WAGMAN"
+                }
+              },
+              {
+                "sequence": 4,
+                "extracted_name": {
+                  "value": "DAVID J MICHAEL"
+                }
+              }
+            ]
+          },
+          "classifications_ipcr": {
+            "classifications": [
+              {
+                "symbol": "G06T7/70",
+                "classification_value": "I",
+                "classification_symbol_position": "F"
+              },
+              {
+                "symbol": "G06V10/44",
+                "classification_value": "I",
+                "classification_symbol_position": "L"
+              }
+            ]
+          },
+          "classifications_cpc": {
+            "classifications": [
+              {
+                "symbol": "G06T19/006",
+                "classification_value": "I",
+                "classification_symbol_position": "F"
+              },
+              {
+                "symbol": "G06T7/13",
+                "classification_value": "I",
+                "classification_symbol_position": "L"
+              },
+              {
+                "symbol": "G06T7/66",
+                "classification_value": "I",
+                "classification_symbol_position": "L"
+              },
+              {
+                "symbol": "G06T19/20",
+                "classification_value": "I",
+                "classification_symbol_position": "L"
+              },
+              {
+                "symbol": "G06T2219/2004",
+                "classification_value": "A",
+                "classification_symbol_position": "L"
+              },
+              {
+                "symbol": "G06T7/75",
+                "classification_value": "I",
+                "classification_symbol_position": "F"
+              },
+              {
+                "symbol": "G06T2207/10012",
+                "classification_value": "A",
+                "classification_symbol_position": "L"
+              },
+              {
+                "symbol": "G06T2207/10028",
+                "classification_value": "A",
+                "classification_symbol_position": "L"
+              },
+              {
+                "symbol": "G06V10/44",
+                "classification_value": "I",
+                "classification_symbol_position": "L"
+              },
+              {
+                "symbol": "G06V10/7715",
+                "classification_value": "I",
+                "classification_symbol_position": "L"
+              },
+              {
+                "symbol": "G06V20/653",
+                "classification_value": "I",
+                "classification_symbol_position": "L"
+              },
+              {
+                "symbol": "H04N13/239",
+                "classification_value": "A",
+                "classification_symbol_position": "L"
+              },
+              {
+                "symbol": "H04N13/275",
+                "classification_value": "A",
+                "classification_symbol_position": "L"
+              },
+              {
+                "symbol": "H04N2013/0074",
+                "classification_value": "A",
+                "classification_symbol_position": "L"
+              },
+              {
+                "symbol": "G06T7/75",
+                "classification_value": "I",
+                "classification_symbol_position": "F"
+              },
+              {
+                "symbol": "G06F18/22",
+                "classification_value": "I",
+                "classification_symbol_position": "L"
+              },
+              {
+                "symbol": "G06T7/344",
+                "classification_value": "I",
+                "classification_symbol_position": "L"
+              },
+              {
+                "symbol": "G06T17/10",
+                "classification_value": "I",
+                "classification_symbol_position": "L"
+              },
+              {
+                "symbol": "G06T2207/10012",
+                "classification_value": "A",
+                "classification_symbol_position": "L"
+              },
+              {
+                "symbol": "G06V10/44",
+                "classification_value": "I",
+                "classification_symbol_position": "L"
+              },
+              {
+                "symbol": "G06V10/7715",
+                "classification_value": "I",
+                "classification_symbol_position": "L"
+              },
+              {
+                "symbol": "G06V20/653",
+                "classification_value": "I",
+                "classification_symbol_position": "L"
+              },
+              {
+                "symbol": "G06V30/2504",
+                "classification_value": "I",
+                "classification_symbol_position": "L"
+              },
+              {
+                "symbol": "H04N13/275",
+                "classification_value": "I",
+                "classification_symbol_position": "L"
+              }
+            ]
+          },
+          "references_cited": {
+            "citations": [
+              {
+                "sequence": 1,
+                "patcit": {
+                  "document_id": {
+                    "jurisdiction": "JP",
+                    "doc_number": "2014528057",
+                    "kind": "A",
+                    "date": "2014-10-23"
+                  },
+                  "lens_id": "194-240-233-735-357"
+                },
+                "category": [
+                  "A"
+                ],
+                "cited_phase": "SEA"
+              },
+              {
+                "sequence": 2,
+                "patcit": {
+                  "document_id": {
+                    "jurisdiction": "JP",
+                    "doc_number": "2016186488",
+                    "kind": "A",
+                    "date": "2016-10-27"
+                  },
+                  "lens_id": "052-217-989-725-349"
+                },
+                "category": [
+                  "A"
+                ],
+                "cited_phase": "SEA"
+              }
+            ],
+            "patent_count": 2
+          },
+          "cited_by": {}
+        },
+        "families": {
+          "simple_family": {
+            "members": [
+              {
+                "document_id": {
+                  "jurisdiction": "JP",
+                  "doc_number": "2022028860",
+                  "kind": "A",
+                  "date": "2022-02-16"
+                },
+                "lens_id": "034-570-877-155-964"
+              },
+              {
+                "document_id": {
+                  "jurisdiction": "JP",
+                  "doc_number": "7646762",
+                  "kind": "B2",
+                  "date": "2025-03-17"
+                },
+                "lens_id": "191-144-326-109-946"
+              },
+              {
+                "document_id": {
+                  "jurisdiction": "JP",
+                  "doc_number": "2019153290",
+                  "kind": "A",
+                  "date": "2019-09-12"
+                },
+                "lens_id": "149-306-438-089-587"
+              },
+              {
+                "document_id": {
+                  "jurisdiction": "US",
+                  "doc_number": "11881000",
+                  "kind": "B2",
+                  "date": "2024-01-23"
+                },
+                "lens_id": "136-461-112-211-739"
+              },
+              {
+                "document_id": {
+                  "jurisdiction": "CN",
+                  "doc_number": "117541753",
+                  "kind": "A",
+                  "date": "2024-02-09"
+                },
+                "lens_id": "021-184-175-660-811"
+              },
+              {
+                "document_id": {
+                  "jurisdiction": "DE",
+                  "doc_number": "102019104310",
+                  "kind": "B4",
+                  "date": "2025-07-24"
+                },
+                "lens_id": "133-077-642-139-900"
+              },
+              {
+                "document_id": {
+                  "jurisdiction": "US",
+                  "doc_number": "20190259177",
+                  "kind": "A1",
+                  "date": "2019-08-22"
+                },
+                "lens_id": "015-984-701-787-352"
+              },
+              {
+                "document_id": {
+                  "jurisdiction": "DE",
+                  "doc_number": "102019104310",
+                  "kind": "A1",
+                  "date": "2019-08-22"
+                },
+                "lens_id": "106-787-778-821-324"
+              },
+              {
+                "document_id": {
+                  "jurisdiction": "CN",
+                  "doc_number": "110176075",
+                  "kind": "A",
+                  "date": "2019-08-27"
+                },
+                "lens_id": "075-750-794-420-537"
+              },
+              {
+                "document_id": {
+                  "jurisdiction": "JP",
+                  "doc_number": "6983828",
+                  "kind": "B2",
+                  "date": "2021-12-17"
+                },
+                "lens_id": "069-640-434-761-675"
+              },
+              {
+                "document_id": {
+                  "jurisdiction": "JP",
+                  "doc_number": "7339316",
+                  "kind": "B2",
+                  "date": "2023-09-05"
+                },
+                "lens_id": "048-039-274-200-326"
+              },
+              {
+                "document_id": {
+                  "jurisdiction": "JP",
+                  "doc_number": "2023159360",
+                  "kind": "A",
+                  "date": "2023-10-31"
+                },
+                "lens_id": "184-359-928-001-70X"
+              },
+              {
+                "document_id": {
+                  "jurisdiction": "US",
+                  "doc_number": "10957072",
+                  "kind": "B2",
+                  "date": "2021-03-23"
+                },
+                "lens_id": "035-865-772-920-943"
+              },
+              {
+                "document_id": {
+                  "jurisdiction": "CN",
+                  "doc_number": "110176075",
+                  "kind": "B",
+                  "date": "2023-10-20"
+                },
+                "lens_id": "146-886-802-780-388"
+              },
+              {
+                "document_id": {
+                  "jurisdiction": "US",
+                  "doc_number": "20210366153",
+                  "kind": "A1",
+                  "date": "2021-11-25"
+                },
+                "lens_id": "116-240-511-840-191"
+              }
+            ],
+            "size": 15
+          },
+          "extended_family": {
+            "members": [
+              {
+                "document_id": {
+                  "jurisdiction": "JP",
+                  "doc_number": "2022028860",
+                  "kind": "A",
+                  "date": "2022-02-16"
+                },
+                "lens_id": "034-570-877-155-964"
+              },
+              {
+                "document_id": {
+                  "jurisdiction": "JP",
+                  "doc_number": "7646762",
+                  "kind": "B2",
+                  "date": "2025-03-17"
+                },
+                "lens_id": "191-144-326-109-946"
+              },
+              {
+                "document_id": {
+                  "jurisdiction": "JP",
+                  "doc_number": "2019153290",
+                  "kind": "A",
+                  "date": "2019-09-12"
+                },
+                "lens_id": "149-306-438-089-587"
+              },
+              {
+                "document_id": {
+                  "jurisdiction": "US",
+                  "doc_number": "11881000",
+                  "kind": "B2",
+                  "date": "2024-01-23"
+                },
+                "lens_id": "136-461-112-211-739"
+              },
+              {
+                "document_id": {
+                  "jurisdiction": "CN",
+                  "doc_number": "117541753",
+                  "kind": "A",
+                  "date": "2024-02-09"
+                },
+                "lens_id": "021-184-175-660-811"
+              },
+              {
+                "document_id": {
+                  "jurisdiction": "DE",
+                  "doc_number": "102019104310",
+                  "kind": "B4",
+                  "date": "2025-07-24"
+                },
+                "lens_id": "133-077-642-139-900"
+              },
+              {
+                "document_id": {
+                  "jurisdiction": "US",
+                  "doc_number": "20190259177",
+                  "kind": "A1",
+                  "date": "2019-08-22"
+                },
+                "lens_id": "015-984-701-787-352"
+              },
+              {
+                "document_id": {
+                  "jurisdiction": "DE",
+                  "doc_number": "102019104310",
+                  "kind": "A1",
+                  "date": "2019-08-22"
+                },
+                "lens_id": "106-787-778-821-324"
+              },
+              {
+                "document_id": {
+                  "jurisdiction": "CN",
+                  "doc_number": "110176075",
+                  "kind": "A",
+                  "date": "2019-08-27"
+                },
+                "lens_id": "075-750-794-420-537"
+              },
+              {
+                "document_id": {
+                  "jurisdiction": "JP",
+                  "doc_number": "6983828",
+                  "kind": "B2",
+                  "date": "2021-12-17"
+                },
+                "lens_id": "069-640-434-761-675"
+              },
+              {
+                "document_id": {
+                  "jurisdiction": "JP",
+                  "doc_number": "7339316",
+                  "kind": "B2",
+                  "date": "2023-09-05"
+                },
+                "lens_id": "048-039-274-200-326"
+              },
+              {
+                "document_id": {
+                  "jurisdiction": "JP",
+                  "doc_number": "2023159360",
+                  "kind": "A",
+                  "date": "2023-10-31"
+                },
+                "lens_id": "184-359-928-001-70X"
+              },
+              {
+                "document_id": {
+                  "jurisdiction": "US",
+                  "doc_number": "10957072",
+                  "kind": "B2",
+                  "date": "2021-03-23"
+                },
+                "lens_id": "035-865-772-920-943"
+              },
+              {
+                "document_id": {
+                  "jurisdiction": "CN",
+                  "doc_number": "110176075",
+                  "kind": "B",
+                  "date": "2023-10-20"
+                },
+                "lens_id": "146-886-802-780-388"
+              },
+              {
+                "document_id": {
+                  "jurisdiction": "US",
+                  "doc_number": "20210366153",
+                  "kind": "A1",
+                  "date": "2021-11-25"
+                },
+                "lens_id": "116-240-511-840-191"
+              }
+            ],
+            "size": 15
+          }
+        },
+        "legal_status": {
+          "granted": true,
+          "grant_date": "2021-12-17",
+          "anticipated_term_date": "2039-02-18",
+          "calculation_log": [
+            "Application Filing Date: 2019-02-18",
+            "Granted Date: 2021-12-17",
+            "Anticipated Termination Date: 2039-02-18"
+          ],
+          "patent_status": "ACTIVE"
+        },
+        "abstract": [
+          {
+            "text": "【課題】３Ｄカメラアセンブリによって取得したオブジェクトの３Ｄ画像内の３Ｄモデルの姿勢を正確に検出するためのシステム及び方法を提供する。【解決手段】３Ｄカメラアセンブリによって取得したオブジェクトの３Ｄ画像内の３Ｄモデルの姿勢を検出するための方法は、３Ｄモデルをビジョンシステムプロセッサに提供するステップと、取得した３Ｄ画像をビジョンシステムプロセッサに提供するステップと、プロセッサを用いて姿勢を検出するステップであって、姿勢は３Ｄモデル内の３Ｄエッジを３Ｄ画像内の３Ｄエッジに一致させ、同時に、３Ｄモデル内の３Ｄ法線を３Ｄ画像内の３Ｄ法線に一致させるものである、検出するステップと、を含む。【選択図】図２",
+            "lang": "ja"
+          },
+          {
+            "text": "To provide a system and method for accurately finding the pose of a 3D model in a 3D image of an object acquired by a 3D camera assembly.SOLUTION: A method for finding the pose of a 3D model in a 3D image of an object acquired by a 3D camera assembly comprises the steps of: providing the 3D model to a vision system processor; providing the acquired 3D image to the vision system processor; and finding, with the processor, a pose that matches 3D edges in the 3D model to 3D edges in the 3D image and matches 3D normals in the 3D model to 3D normals in the 3D image simultaneously.SELECTED DRAWING: Figure 2",
+            "lang": "en"
+          }
+        ]
+      }
+    ],
+    "results": 1
+  }
+}

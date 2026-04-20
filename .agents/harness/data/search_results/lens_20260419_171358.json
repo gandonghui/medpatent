@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "source": "lens.org",
+    "query": "3D imaging OR vision system",
+    "timestamp": "2026-04-19T17:13:58.978113",
+    "total_hits": 0,
+    "returned": 0,
+    "cpc": null,
+    "jurisdiction": null,
+    "assignee": "Intuitive Surgical",
+    "date_from": null,
+    "date_to": null,
+    "limit": 50
+  },
+  "raw": {
+    "total": 0,
+    "max_score": 0.0,
+    "data": []
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "source": "lens.org",
+    "query_label": "Intuitive Operations Direct Match",
+    "timestamp": "2026-04-19T17:46:27.508501",
+    "total_hits": 0,
+    "payload": {
+      "query": {
+        "match": {
+          "biblio.parties.applicants.extracted_name.value": "Intuitive Surgical Operations"
+        }
+      }
+    }
+  },
+  "raw": {
+    "data": [],
+    "total": 0
+  }
+}

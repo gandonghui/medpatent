@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "source": "lens.org",
+    "query_label": "Intuitive Operations Accurate",
+    "timestamp": "2026-04-19T17:54:52.107988",
+    "total_hits": 0,
+    "payload": {
+      "query": {
+        "bool": {
+          "must": [
+            {
+              "query_string": {
+                "query": "\"Intuitive Surgical Operations\"",
+                "fields": [
+                  "biblio.parties.applicants.extracted_name.value"
+                ]
+              }
+            },
+            {
+              "query_string": {
+                "query": "3D OR vision OR image OR optical OR stereoscopic OR visualization OR camera OR endoscope",
+                "fields": [
+                  "biblio.title.text",
+                  "abstract.text",
+                  "claims.text"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "raw": {
+    "data": [],
+    "total": 0
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "source": "lens.org",
+    "query_label": "Intuitive Broad Applicant",
+    "timestamp": "2026-04-19T17:46:31.305468",
+    "total_hits": 0,
+    "payload": {
+      "query": {
+        "match": {
+          "applicants.name": "Intuitive Surgical"
+        }
+      }
+    }
+  },
+  "raw": {
+    "data": [],
+    "total": 0
+  }
+}
