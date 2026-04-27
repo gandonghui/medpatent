@@ -1,6 +1,16 @@
 {
   "version": 1,
   "skills": {
+    "markdown-to-docx": {
+      "source": "duc01226/easyplatform",
+      "sourceType": "github",
+      "computedHash": "a16f6693df59bcce0411c61bb5e311c183525983244e5e5fe067ac785becc5b5"
+    },
+    "pandoc-pdf-generation": {
+      "source": "terrylica/cc-skills",
+      "sourceType": "github",
+      "computedHash": "bc4648a50532cb78f0049e8c733866f54e78b24c9b4346db62f007741eef4eec"
+    },
     "patent-search-cn-us": {
       "source": "xiaojiongqian/skills-hub",
       "sourceType": "github",

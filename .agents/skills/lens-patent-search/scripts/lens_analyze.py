@@ -99,12 +99,19 @@ def extract_stats_from_json_patent(pat: dict) -> dict:
     biblio = pat.get("biblio", {})
     lens_id  = pat.get("lens_id", "N/A")
     
-    pub_ref = biblio.get("publication_reference", {})
-    pub_key  = pub_ref.get("pub_key", "N/A")
+    pub_ref  = biblio.get("publication_reference", {})
     jur      = pub_ref.get("jurisdiction", "N/A")
+    doc_num  = pub_ref.get("doc_number", "N/A")
+    kind     = pub_ref.get("kind", "")
+    # 构造标准公开号: [JUR]-[NUM]-[KIND]
+    if jur != "N/A" and doc_num != "N/A":
+        pub_key = f"{jur}-{doc_num}-{kind}" if kind else f"{jur}-{doc_num}"
+    else:
+        pub_key = "N/A"
+    
     pub_date = pub_ref.get("date", "")
 
-    title_list = biblio.get("title", [])
+    title_list = biblio.get("invention_title", [])
     title_en   = next((t.get("text","") for t in title_list if t.get("lang")=="en"), "")
     if not title_en and title_list:
         title_en = title_list[0].get("text","N/A")
@@ -138,6 +145,10 @@ def extract_stats_from_json_patent(pat: dict) -> dict:
 
     year = pub_date[:4] if pub_date and len(pub_date) >= 4 else "N/A"
 
+    # 全文检测
+    desc = pat.get("description", {})
+    has_full_text = "Yes" if (isinstance(desc, dict) and desc.get("text")) or (isinstance(desc, str) and len(desc) > 100) else "No"
+
     return {
         "lens_id": lens_id,
         "pub_key": pub_key,
@@ -149,6 +160,7 @@ def extract_stats_from_json_patent(pat: dict) -> dict:
         "cpc_codes": cpcs[:5],
         "claim_count": claim_count,
         "independent_claim_count": indep_count,
+        "has_full_text": has_full_text,
         "source": "json",
     }
 
@@ -168,8 +180,8 @@ def aggregate(records: list[dict]) -> dict:
                 applicant_counter[a] += 1
         for c in r.get("cpc_codes", []):
             if c:
-                # 只取到4位主分组
-                main = c[:4] if len(c) >= 4 else c
+                # 取到主分号 (Main Group), 例如 A61B34/30
+                main = c.split()[0] if " " in c else c
                 cpc_counter[main] += 1
         yr = r.get("year") or (r.get("date_published","")[:4] if r.get("date_published") else "N/A")
         if yr and yr != "N/A":
@@ -320,7 +332,7 @@ def write_csv(records: list[dict], csv_path: Path):
     fieldnames = [
         "lens_id", "pub_key", "jurisdiction", "date_published",
         "title", "applicants", "cpc_codes",
-        "claim_count", "independent_claim_count",
+        "claim_count", "independent_claim_count", "has_full_text",
     ]
     with open(csv_path, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction="ignore")
