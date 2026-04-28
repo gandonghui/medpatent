@@ -1,9 +1,13 @@
-# 📈 任务进度
+# 进度日志: medpatent 架构升级
 
-- [2026-04-14 17:23] 环境检查：gcloud 已就绪，google-cloud-bigquery 需安装。
-- [2026-04-14 17:24] `google-cloud-bigquery` 安装成功。
-- [2026-04-14 17:25] 尝试执行检索脚本，报错：DefaultCredentialsError。
-- [2026-04-14 17:26] 用户完成 ADC 认证。
-- [2026-04-14 17:27] 重新执行脚本，初次关键词过严得到 0 条。
-- [2026-04-14 17:28] 调整关键词为 "3D imaging" 后成功检索到 10 条专利。
-- [2026-04-14 17:29] 正在生成分析报告。
+## 2026-04-27
+- **Session 1**:
+    - [x] 分析 `doc/改进_plan.md`。
+    - [x] 提出“刚性管道 + 弹性审判”架构理念并获用户同意。
+    - [x] 初始化 `implementation_plan.md` 与 `task.md`。
+    - [x] 初始化 `.agents/plans/` 目录下的规划文件。
+    - [x] 完成阶段 1：构建刚性管道 (deduplicate, baseline_verify)。
+    - [x] 完成阶段 2：注入对撞协议与证据三元组。
+    - [x] 完成阶段 3：建立 IR 层与只读生成模式。
+    - [x] 完成阶段 4：更新 FAULT_DIARY 并生成 Walkthrough。
+    - **Status**: 全面升级完成。

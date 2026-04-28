@@ -12,6 +12,8 @@ Track errors in AI agent logic, hallucinated prior art, and tracing failures her
 | 2026-04-14| Search | Initial setup | Define `search_playbook.md` rules. |
 | 2026-04-14| Search | Agent hit blocker due to unconfigured Valyu API Key. | Updated `search_playbook` with Rule 4 (API pre-setup check). |
 | 2026-04-14| Classification | Disconnect between Search output and Classification step. | Enforced use of `patent-examiner` skill and added unified template in `classification_guidelines.md`. |
+| 2026-04-27| Classification | Semantic Drift (Mechanical hallucinated as AI). Case: US9283050B2. | Implemented **Collision Protocol** (Evidence Triplet + CPC Audit). |
+| 2026-04-27| Pipeline | Data Integrity failure (81 patents dropped to 59, missing baselines). | Implemented **Rigid Pipeline** (Python deduplication + Baseline verification). |
 
 ## 🛡️ Corrective Guardrails
 - **MANDATORY**: Valid publication number format validation (`US\d{7,8}[A-Z]\d`).
@@ -30,6 +32,8 @@ Track errors in AI agent logic, hallucinated prior art, and tracing failures her
 | 2026 年 4 月 14 日 | 搜索 | 初始设置 | 定义 `search_playbook.md` 文件中的规则。|
 | 2026-04-14 | 搜索 | 代理因未配置 Valyu API 密钥而被阻止。 | 将 `搜索脚本` 更新为第 4 条规则（API 预设置检查）。|
 | 2026-04-14 | 分类 | 搜索结果与分类步骤之间存在脱节。 | 强制使用“专利审查员”技能，并在“分类指南.md”中添加了统一模板。|
+| 2026-04-27 | 分类 | 语义漂移（机械专利幻觉为 AI）。案例：US9283050B2。 | 实施**冲突对撞协议**（证据三元组 + CPC 审计）。|
+| 2026-04-27 | 管道 | 数据完整性故障（81 件专利丢失至 59 件，遗漏基准）。 | 实施**刚性管道**（Python 去重 + 基准验证）。|
 
 ## 🛡️ 补救性防护栏
 - **必填项**：有效的出版编号格式验证（“US\d{7,8}[A-Z]\d”）。

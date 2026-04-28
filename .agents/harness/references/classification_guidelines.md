@@ -18,6 +18,19 @@ Standards for patent classification analysis and statutory compliance checks.
 - Create overlap matrices for the Top 5 search results.
 - **Metric**: High (75-100% overlap), Medium (50-74%), Low (< 50%).
 
+## 🚩 Rule 4: Evidence Triplet Protocol (证据三元组协议)
+- **MANDATORY**: For every technical feature identified, you MUST provide a triplet:
+  1. **Label**: The technical tag (e.g., "AI", "Software Tracking").
+  2. **Evidence**: Exact quote from the claims or description [e.g., Claim 1, Line 5].
+  3. **CPC Anchor**: The relevant CPC code that supports this technical area.
+
+## 🚩 Rule 5: Collision Detection (冲突对撞协议)
+- **Mechanism**: Perform a "Reality Check" between the semantic Label and the physical CPC code.
+- **Constraint**: If a patent is primarily in a **Mechanical Class** (e.g., A61B 17/00, A61B 34/30) but the Agent labels it as **"AI/Software"**:
+  - The Agent MUST invoke the **High-Intensity Audit** mode.
+  - **Audit Requirement**: Find at least two explicit computer architecture terms (e.g., "processor", "memory", "algorithm", "neural network") in the *Independent Claims*.
+  - **Failure Action**: If explicit evidence is not found, the "AI/Software" label MUST be retracted or downgraded to "Pure Mechanical/Control".
+
 ## 📓 Unified Classification & Overlap Matrix Template
 | Feature | US101... (Title) | EP202... (Title) |
 |---------|------------------|------------------|
@@ -42,6 +55,19 @@ Standards for patent classification analysis and statutory compliance checks.
 ## 🚩 第 3 条：技术重叠分析
 - 为前 5 个搜索结果创建重叠矩阵。
 - **指标**：高（重叠度 75% - 100%），中（50% - 74%），低（< 50%）。
+
+## 🚩 规则 4：证据三元组协议 (Evidence Triplet Protocol)
+- **强制要求**：对于识别出的每一个技术特征，必须提供三元组：
+  1. **标签 (Label)**：技术标签（如“人工智能”、“软件追踪”）。
+  2. **证据 (Evidence)**：权利要求或说明书中的精确引文 [例如：权利要求 1，第 5 行]。
+  3. **CPC 锚点 (CPC Anchor)**：支持该技术领域的相关 CPC 代码。
+
+## 🚩 规则 5：冲突对撞协议 (Collision Detection)
+- **机制**：在语义“标签”与物理“CPC 代码”之间进行“现实检查”。
+- **约束**：如果专利主要属于**机械类**（如 A61B 17/00, A61B 34/30），但代理将其标记为**“人工智能/软件”**：
+  - 代理必须调用**高强度审计**模式。
+  - **审计要求**：在*独立权利要求*中找到至少两个明确的计算机架构术语（如“处理器”、“存储器”、“算法”、“神经网络”）。
+  - **失败操作**：如果未找到明确证据，必须撤回“人工智能/软件”标签，或将其降级为“纯机械/控制”。
 ## 📜 统一分类与重叠矩阵模板
 | 特征 | US101...（标题） | EP202...（标题） ||---------|------------------|------------------|
 | **分类映射** | IPC/CPC（例如：A61B 34/30） | IPC/CPC |

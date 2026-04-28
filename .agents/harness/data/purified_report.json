@@ -1,0 +1,100 @@
+{
+  "total_found": 12203,
+  "top_patents": [
+    {
+      "pubKey": "N/A",
+      "pubDate": "2014-08-19",
+      "title": "Augmented stereoscopic visualization for a surgical robot using a captured visible image combined with a fluorescence image and a captured visible image",
+      "cpc": "A61B1/043, A61B1/000096, A61B1/0005",
+      "category": "AR/Overlay",
+      "lensId": "012-066-678-095-523",
+      "abstract": "An endoscope with a stereoscopic optical channel is held and positioned by a robotic surgical system. A capture unit captures (1) a visible first image and (2) a visible second image combined with a fluorescence second image from the light. An intelligent image processing system receives (1) the visible first image and (2) the visible second image combined with the fluorescence second image and generates at least one fluorescence image of a stereoscopic pair of fluorescence images and a visible second image. An augmented stereoscopic display system outputs a real-time stereoscopic image including a three-dimensional presentation including in one eye, a blend of the at least one fluorescence image of a stereoscopic pair of fluorescence images and one of the visible first and second images; and in the other eye, the other of the visible first and second images."
+    },
+    {
+      "pubKey": "N/A",
+      "pubDate": "2022-12-29",
+      "title": "SYSTEMS AND METHODS FOR DETERMINING A VOLUME OF RESECTED TISSUE DURING A SURGICAL PROCEDURE",
+      "cpc": "G06T7/62, G06T7/593, G06T2207/10028",
+      "category": "Vision System",
+      "lensId": "012-445-777-217-186",
+      "abstract": "An exemplary tissue volume detection system accesses, during a surgical procedure involving resecting a piece of tissue from a body, a plurality of depth datasets for the resected piece of tissue. Each of the plurality of depth datasets is captured as a different portion of a surface of the resected piece of tissue is presented to an imaging device by an instrument that holds the resected piece of tissue in a manner that sequentially presents the different portions of the surface to the imaging device. During the surgical procedure and based on the depth datasets, the system generates a three-dimensional (3D) occupancy map that includes a set of voxels identified to be occupied by the resected piece of tissue. Based on the 3D occupancy map and still during the surgical procedure, the system determines an estimated volume of the resected piece of tissue. Corresponding systems and methods are also disclosed."
+    },
+    {
+      "pubKey": "N/A",
+      "pubDate": "2009-10-29",
+      "title": "AUGMENTED STEREOSCOPIC VISUALIZATION FOR A SURGICAL ROBOT",
+      "cpc": "A61B1/043, A61B1/000096, A61B1/0005",
+      "category": "AR/Overlay",
+      "lensId": "019-276-383-485-065",
+      "abstract": "A robotic surgical system positions and holds an endoscope. A visible imaging system is coupled to the endoscope. The visible imaging system captures a visible image of tissue. An alternate imaging system is also coupled to the endoscope. The alternate imaging system captures a fluorescence image of at least a portion of the tissue. A stereoscopic video display system is coupled to the visible imaging system and to the alternate imaging system. The stereoscopic video display system outputs a real-time stereoscopic image comprising a three-dimensional presentation of a blend of a fluorescence image associated with the captured fluorescence image, and the visible image."
+    },
+    {
+      "pubKey": "N/A",
+      "pubDate": "2011-08-03",
+      "title": "Medical robotic system providing three-dimensional telestration",
+      "cpc": "A61B90/36, A61B34/30, A61B34/70",
+      "category": "Stereoscopic Vision",
+      "lensId": "026-450-100-809-395",
+      "abstract": "A medical robotic system provides 3D telestration over a 3D view of an anatomical structure by receiving a 2D telestration graphic input associated with one of a pair of stereoscopic images of the anatomical structure from a mentor surgeon, determining a corresponding 2D telestration graphic input in the other of the pair of stereoscopic images using a disparity map, blending the telestration graphic inputs into respective ones of the pair of stereoscopic images, and providing the blended results to a 3D display so that a 3D view of the telestration graphic input may be displayed as an overlay to a 3D view of the anatomical structure to an operating surgeon."
+    },
+    {
+      "pubKey": "N/A",
+      "pubDate": "2024-10-08",
+      "title": "Systems and methods for tracking a position of a robotically-manipulated surgical instrument",
+      "cpc": "A61B34/20, A61B2034/2065, G06N3/09",
+      "category": "Vision System",
+      "lensId": "027-944-560-651-783",
+      "abstract": "An exemplary surgical instrument tracking system includes at least one physical computing device that determines, based on endoscopic imagery of a surgical area and using a trained neural network, an observation for an object of interest depicted in the endoscopic imagery, associates, based on a probabilistic framework and kinematics of a robotically-manipulated surgical instrument located at the surgical area, the observation for the object of interest to the robotically-manipulated surgical instrument, and determines a physical position of the robotically-manipulated surgical instrument at the surgical area based on the kinematics of the robotically-manipulated surgical instrument and the observation associated with the robotically-manipulated surgical instrument."
+    },
+    {
+      "pubKey": "N/A",
+      "pubDate": "2007-10-25",
+      "title": "MEDICAL ROBOTIC SYSTEM PROVIDING THREE-DIMENSIONAL TELESTRATION",
+      "cpc": "A61B90/36, A61B34/30, A61B34/70",
+      "category": "Stereoscopic Vision",
+      "lensId": "029-823-013-559-461",
+      "abstract": "A medical robotic system provides 3D telestration over a 3D view of an anatomical structure by receiving a 2D telestration graphic input associated with one of a pair of stereoscopic images of the anatomical structure from a mentor surgeon, determining a corresponding 2D telestration graphic input in the other of the pair of stereoscopic images using a disparity map, blending the telestration graphic inputs into respective ones of the pair of stereoscopic images, and providing the blended results to a 3D display so that a 3D view of the telestration graphic input may be displayed as an overlay to a 3D view of the anatomical structure to an operating surgeon."
+    },
+    {
+      "pubKey": "N/A",
+      "pubDate": "2012-07-24",
+      "title": "Augmented stereoscopic visualization for a surgical robot using a captured fluorescence image and captured stereoscopic visible images",
+      "cpc": "A61B1/043, A61B1/000096, A61B1/0005",
+      "category": "AR/Overlay",
+      "lensId": "033-796-737-921-781",
+      "abstract": "An illumination channel, a stereoscopic optical channel and another optical channel are held and positioned by a robotic surgical system. A first capture unit captures a stereoscopic visible image from the first light from the stereoscopic optical channel while a second capture unit captures a fluorescence image from the second light from the other optical channel. An intelligent image processing system receives the captured stereoscopic visible image and the captured fluorescence image and generates a stereoscopic pair of fluorescence images. An augmented stereoscopic display system outputs a real-time stereoscopic image comprising a three-dimensional presentation of a blend of the stereoscopic visible image and the stereoscopic pair of fluorescence images."
+    },
+    {
+      "pubKey": "N/A",
+      "pubDate": "2018-01-03",
+      "title": "Augmented stereoscopic visualization for a surgical robot",
+      "cpc": "A61B1/043, A61B1/000096, A61B1/0005",
+      "category": "AR/Overlay",
+      "lensId": "035-022-244-631-296",
+      "abstract": "N/A"
+    },
+    {
+      "pubKey": "N/A",
+      "pubDate": "2025-03-27",
+      "title": "SYSTEMS AND METHODS FOR DETERMINING A VOLUME OF RESECTED TISSUE DURING A SURGICAL PROCEDURE",
+      "cpc": "G06T7/62, G06T7/593, G06T2207/10028",
+      "category": "Vision System",
+      "lensId": "038-687-900-162-025",
+      "abstract": "An illustrative system is configured to access, during a surgical procedure that involves resecting a piece of tissue from a body, a plurality of depth datasets for the resected piece of tissue; determine, during the surgical procedure and based on the plurality of depth datasets, an estimated volume of the resected piece of tissue; and indicate, during the surgical procedure, whether the estimated volume of the resected piece of tissue is within a predetermined threshold of an expected volume of the resected piece of tissue."
+    },
+    {
+      "pubKey": "N/A",
+      "pubDate": "2009-10-29",
+      "title": "AUGMENTED STEREOSCOPIC VISUALIZATION FOR A SURGICAL ROBOT",
+      "cpc": "A61B1/043, A61B1/000096, A61B1/0005",
+      "category": "AR/Overlay",
+      "lensId": "039-312-343-890-219",
+      "abstract": "A robotic surgical system positions and holds an endoscope. A visible imaging system is coupled to the endoscope. The visible imaging system captures a visible image of tissue. An alternate imaging system is also coupled to the endoscope. The alternate imaging system captures a fluorescence image of at least a portion of the tissue. A stereoscopic video display system is coupled to the visible imaging system and to the alternate imaging system. The stereoscopic video display system outputs a real-time stereoscopic image comprising a three-dimensional presentation of a blend of a fluorescence image associated with the captured fluorescence image and the visible image."
+    }
+  ],
+  "categories": {
+    "AR/Overlay": 18,
+    "Vision System": 17,
+    "Stereoscopic Vision": 15
+  }
+}

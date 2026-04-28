@@ -1,0 +1,1064 @@
+{
+  "data": [
+    {
+      "pub_key": "EP2197548",
+      "title": "DIRECT VISUALIZATION ROBOTIC INTRA-OPERATIVE RADIATION THERAPY APPLICATOR DEVICE",
+      "date": "2012-11-14",
+      "cpc": "A61N5/1001, A61N5/1067, A61N2005/1052",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "N/A",
+      "claims": ""
+    },
+    {
+      "pub_key": "EP3162318",
+      "title": "AUXILIARY IMAGE DISPLAY AND MANIPULATION ON A COMPUTER DISPLAY IN A MEDICAL ROBOTIC SYSTEM",
+      "date": "2019-10-16",
+      "cpc": "A61B34/37, A61B18/1482, A61B34/10",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "N/A",
+      "claims": ""
+    },
+    {
+      "pub_key": "EP3582674",
+      "title": "SURGICAL VISUALIZATION AND MEDICAL IMAGING DEVICES USING NEAR INFRARED FLUORESCENT POLYMERS",
+      "date": "2022-05-04",
+      "cpc": "A61B1/043, A61B1/267, A61B34/30",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "N/A",
+      "claims": ""
+    },
+    {
+      "pub_key": "EP4103080",
+      "title": "AIRFLOW CHANNELS AND PATTERNS IN LUMEN FOR CANNULA",
+      "date": "2024-12-04",
+      "cpc": "A61B17/3421, A61B17/3417, A61B17/3474",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "N/A",
+      "claims": ""
+    },
+    {
+      "pub_key": "EP4137082",
+      "title": "APPARATUS AND METHOD TO INSPECT MICROLUMEN OF CATHETER",
+      "date": "2026-03-11",
+      "cpc": "A61B18/1492, A61B1/121, A61B2217/002",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "N/A",
+      "claims": ""
+    },
+    {
+      "pub_key": "US10137575",
+      "title": "Synthetic representation of a surgical robot",
+      "date": "2018-11-27",
+      "cpc": "G16H20/40, A61B34/20, A61B34/25",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "A synthetic representation of a robot tool for display on a user interface of a robotic system. The synthetic representation may be used to show the position of a view volume of an image capture device with respect to the robot. The synthetic representation may also be used to find a tool that is outside of the field of view, to display range of motion limits for a tool, to remotely communicate information about the robot, and to detect collisions.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US10258425",
+      "title": "Medical robotic system providing an auxiliary view of articulatable instruments extending out of a distal end of an entry guide",
+      "date": "2019-04-16",
+      "cpc": "A61B2017/00119, A61B90/36, A61B34/20",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "A medical robotic system includes an entry guide with surgical tools and a camera extending out of its distal end. To supplement the view provided by an image captured by the camera, an auxiliary view including articulatable arms of the surgical tools and/or camera is generated from sensed or otherwise determined information about their positions and orientations and displayed on a display screen from the perspective of a specified viewing point.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US10271909",
+      "title": "Display of computer generated image of an out-of-view portion of a medical device adjacent a real-time image of an in-view portion of the medical device",
+      "date": "2019-04-30",
+      "cpc": "A61B34/30, A61B1/0005, A61B1/3132",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "Systems and methods for performing robotically-assisted surgical procedures on a patient enable an image display device to provide an operator with auxiliary information related to the surgical procedure, in addition to providing an image of the surgical site itself. The systems and methods allow an operator to selectively access and reference auxiliary information on the image display device during the performance of a surgical procedure.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US10271912",
+      "title": "Method and system for moving a plurality of articulated instruments in tandem back towards an entry guide",
+      "date": "2019-04-30",
+      "cpc": "A61B34/30, A61B1/00087, A61B1/00193",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "A medical robotic system includes articulated instruments extending out of a distal end of an entry guide. Prior to pivoting the entry guide to re-orient it and the instruments, the instruments are moved in tandem back towards the entry guide after a delay. Haptic cues and velocity limits are provided to assist the operator in the retraction of the instruments. After retraction, the entry guide may then be pivoted without concern that the instruments will harm patient anatomy. The movement of the instruments in tandem back towards the entry guide may also occur through coupled control modes while the entry guide is held in a fixed position and orientation.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US10271915",
+      "title": "Application of force feedback on an input device to urge its operator to command an articulated instrument to a preferred pose",
+      "date": "2019-04-30",
+      "cpc": "A61B34/76, A61B34/25, A61B34/30",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "A medical robotic system includes an entry guide with articulated instruments extending out of its distal end. A controller is configured to command manipulation an articulated instrument in response to operator manipulation of an associated input device while generating a force command to the input device that nudges the operator to command the instrument to a preferred pose. When a transition is to occur between first and second preferred poses, one is phased in while the other is phased out. Virtual barriers may be imposed to prevent the articulated instrument from being commanded to an undesirable pose.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US10582974",
+      "title": "Estimation of a position and orientation of a frame used in controlling movement of a tool",
+      "date": "2020-03-10",
+      "cpc": "A61B34/30, A61B34/37, A61B90/361",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "A robotic system includes a camera having an image frame whose position and orientation relative to a fixed frame is determinable through one or more image frame transforms, a tool disposed within a field of view of the camera and having a tool frame whose position and orientation relative to the fixed frame is determinable through one or more tool frame transforms, and at least one processor programmed to identify pose indicating points of the tool from one or more camera captured images, determine an estimated transform for an unknown one of the image and tool frame transforms using the identified pose indicating points and known ones of the image and tool frame transforms, update a master-to-tool transform using the estimated and known ones of the image and tool frame transforms, and command movement of the tool in response to movement of a master using the updated master-to-tool transform.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US10772689",
+      "title": "Controller assisted reconfiguration of an articulated instrument during movement into and out of an entry guide",
+      "date": "2020-09-15",
+      "cpc": "A61B34/30, A61B34/25, A61B34/32",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "To perform a tool exchange in a medical robotic system, tool is retracted back into an entry guide from a deployed position and pose so that an assistant in the operating room may replace it with a different tool. While the tool is being retracted back towards the entry guide by user action, its configuration is changed to an entry pose while avoiding collisions with other objects so that it may fit in the entry guide. After the tool exchange is completed, a new tool is inserted in the entry guide and extended out of the guide by user action to the original position of the old tool prior to its retraction into the entry guide while the tool's controller assists the user by reconfiguring the new tool so as to resemble the original deployed pose of the old tool prior to its retraction into the entry guide.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US10984567",
+      "title": "Rendering tool information as graphic overlays on displayed images of tools",
+      "date": "2021-04-20",
+      "cpc": "A61B34/20, A61B2034/2061, A61B2090/371",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "An operator telerobotically controls tools to perform a procedure on an object at a work site while viewing real-time images of the work site on a display. Tool information is provided in the operator's current gaze area on the display by rendering the tool information over the tool so as not to obscure objects being worked on at the time by the tool nor to require eyes of the user to refocus when looking at the tool information and the image of the tool on a stereo viewer.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US11304760",
+      "title": "Customized kit assembly for surgical implants",
+      "date": "2022-04-19",
+      "cpc": "A61F2/30942, A61B34/10, A61B34/37",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "Methods, apparatuses, and systems for customized kit assembly for surgical implants are disclosed. A robotic surgical system designs and customizes a surgical implant and its surgical implant components. The surgical implant and its surgical implant components are assembled into a kit that is customized for a specific patient. The robotic surgical procedure using the kit can additionally select from available generic, off-the-shelf surgical implant components or customized surgical implant components.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US11382702",
+      "title": "Medical robotic system providing an auxiliary view including range of motion limitations for articulatable instruments extending out of a distal end of an entry guide",
+      "date": "2022-07-12",
+      "cpc": "A61B1/00183, A61B1/018, A61B1/04",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "A medical robotic system includes an entry guide with surgical tools and a camera extending out of its distal end. To supplement the view provided by an image captured by the camera, an auxiliary view including articulatable arms of the surgical tools and/or camera is generated from sensed or otherwise determined information about their positions and orientations are displayed along with indications of range of motion limitations on a display screen from the perspective of a specified viewing point.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US11389255",
+      "title": "Providing information of tools by filtering image areas adjacent to or on displayed images of the tools",
+      "date": "2022-07-19",
+      "cpc": "A61B34/30, A61B34/37, A61B90/361",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "A system may comprise an image capture device disposed to capture an image of a work site, a display, and a processor. The processor may be configured to determine whether a tool disposed at the work site is energized and determine an area of the captured image of the work site, including or adjacent to an image of a portion of the tool in the captured image, to be filtered to indicate the tool has been energized. Conditioned upon determining that the tool is energized, the processer may also filter the area of the captured image of the work site to generate a filtered area of the captured image of the work site so as to create a glowing effect on the image of the portion of the energized tool, indicating that the tool is being energized. The image of the work site with the filtered area may be displayed on the display.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US11399908",
+      "title": "Medical robotic system with coupled control modes",
+      "date": "2022-08-02",
+      "cpc": "A61B34/37, A61B1/00087, A61B1/00193",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "In a coupled control mode, the surgeon directly controls movement of an associated slave manipulator with an input device while indirectly controlling movement of one or more non-associated slave manipulators, in response to commanded motion of the directly controlled slave manipulator, to achieve a secondary objective. By automatically performing secondary tasks through coupled control modes, the system's usability is enhanced by reducing the surgeon's need to switch to another direct mode to manually achieve the desired secondary objective. Thus, coupled control modes allow the surgeon to better focus on performing medical procedures and to pay less attention to managing the system.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US11464573",
+      "title": "Methods and systems for real-time robotic surgical assistance in an operating room",
+      "date": "2022-10-11",
+      "cpc": "G16H20/40, A61B5/0033, A61B5/004",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "Methods, apparatuses, and systems for providing real-time surgical assistance to a surgical robot using an imaging module, a context computer module, and a quantum analysis module are disclosed. The imaging module receives one or more data related to a patient from an intra-operative database and performs a first step analysis based on the received data. The context computer module determines a type of resource required for analysis based on data received from a historical database and the intra-operative database. The quantum analysis module receives data from the imaging module and the context computer module. The quantum analysis module receives real-time data from operation room (OR) equipment and performs quantum analysis on the received data and real-time data. The quantum analysis module facilitates real-time surgical assistance and recommendations to the surgical robot.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US11464589",
+      "title": "Robotic system and method for performing latency managed telesurgery",
+      "date": "2022-10-11",
+      "cpc": "A61B34/35, G16H20/40, G16H40/20",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "Robotic system and method are described for performing latency managed telesurgery. The system comprises drone(s) to create a wireless network in one or more geographic areas between a surgical site and a remote surgeon. The system further comprises a computer that is configured to: receive a request that indicates that a telesurgery is to be performed between the first location and the second location at a scheduled time; determine that one or more equipment is available for use at the surgical site for the telesurgery at the scheduled time; send a first instruction that triggers measurement of a latency of the wireless network; determine, during the telesurgery, whether the latency of the wireless network is acceptable; and send a first message that indicates that the latency is not acceptable, where an operation of the drone(s) is adjusted or an additional drone is deployed in the one or more geographic areas.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US11464590",
+      "title": "Robotic surgery system with tool edge sensors for edge computing",
+      "date": "2022-10-11",
+      "cpc": "A61B34/35, A61B17/1626, A61B34/37",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "Methods, apparatuses, and systems for edge computing in surgical robotics is provided. The system comprises a surgical robot communicatively coupled to a 3rd party operating room equipment system over a cloud network. The surgical robot includes an operating room hardware configured to perform a surgical procedure on a patient. A memory is communicatively coupled to operating room hardware and user interface, and the memory comprises an equipment database and a threshold database to store parameters related to the operating room hardware. A processor, coupled to the operating room hardware via the network interface, is configured to establish a connection between the surgical robot and the 3rd party operating room equipment system, and monitor events being performed by the operating room and then store the monitored data within the threshold database. The threshold database stores trigger values for each piece of equipment for taking actions, based on data collected by sensors.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US11497436",
+      "title": "Systems, methods, and bone mapper devices for real-time mapping and analysis of bone tissue",
+      "date": "2022-11-15",
+      "cpc": "A61B5/0095, A61B5/0205, A61B5/4509",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "Apparatuses, systems, and methods for performing real-time analysis of bone tissue during a surgical procedure are disclosed herein. In some embodiments, the method includes receiving at least one measurement of at least one tissue sample from a hybrid multi-wavelength photoacoustic measurements (MWPM) component. The method can also include identifying one or more reference cases, from a plurality of reference cases, based on correlations between the at least one measurement and previous measurements in each of the plurality of reference cases. Once the reference cases are identified, the method can include determining at least one bone condition of the patient and sending the at least one determined bone condition to a computing device accessible by a surgeon. In some embodiments, the method also includes creating a three-dimensional (3D) map the tissue sample using the at least one measurement and sending the 3D map to the computing device.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US11510733",
+      "title": "Placement of surgical implants",
+      "date": "2022-11-29",
+      "cpc": "A61B34/10, A61B34/20, A61B34/32",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "Methods, apparatuses, and systems for designing, modifying, and installing a surgical implant optimized for a patient's unique physiology are disclosed. The methods are based upon data from surgical implants installed in other patients. Allowing patient outcomes from previously installed surgical implants to influence the design, placement, and surgical tool path for enable the implanting of surgical implants having the greatest likelihood of a successful patient outcome.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US11571266",
+      "title": "Robotic surgical system for insertion of surgical implants",
+      "date": "2023-02-07",
+      "cpc": "A61B34/32, A61B5/353, A61B5/355",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "Methods, apparatuses, and systems for robotic insertion of a screw, a rod, or another component of a surgical implant into a patient are disclosed. Clinical data from previous surgical procedures or information received from a supervising surgeon can be leveraged to minimize the risk of harm to the patient and improve outcomes. The methods disclosed thus provide more precise placement of implanted surgical components and implants.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US11596482",
+      "title": "System and method for surgical performance tracking and measurement",
+      "date": "2023-03-07",
+      "cpc": "G06N3/08, A61B90/361, A61B2034/102",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "Computer implemented methods and systems are provided for training a machine learning architecture for surgical performance tracking and measurement based on surgical procedure video data set. The methods and systems include, in a first aspect, a sequential relation architecture and a dimensionality reduction architecture. In a second aspect, the methods and systems include a surgical instrument instance segmentation architecture, a decomposition model, and a sequential relation architecture. The video data is processed on a frame level to generate compressed or reduced representations of the video data.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US11684488",
+      "title": "Synchronized placement of surgical implant hardware",
+      "date": "2023-06-27",
+      "cpc": "A61B34/20, A61B5/01, A61B5/0205",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "Methods, apparatuses, and systems for robotic insertion of a screw, a rod, or another component of a surgical implant into a patient are disclosed. Synchronous insertion of screws is performed by multiple surgical robots or a single surgical robot having multiple arms and end effectors. The movements of each robotic arm are coordinated into position in preparation of the insertion of multiple surgical implant components at the same time or in the same surgical step. The insertion of the surgical implant components is performed while monitoring the insertion progress. The insertion is completed autonomously or in coordination with a surgeon.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US11696761",
+      "title": "Firing drive arrangements for surgical systems",
+      "date": "2023-07-11",
+      "cpc": "A61B17/29, A61B17/07207, A61B2017/00017",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "An end effector assembly for use with a surgical instrument is disclosed. The end effector assembly comprises a staple cartridge jaw, a threaded rod, and a replaceable staple cartridge configured to be seated in the staple cartridge jaw. The replaceable staple cartridge comprises a proximal end, a distal end, a longitudinal slot extending between the proximal end and the distal end, and a driver configured to support a staple, wherein the driver comprises a surface facing the threaded rod, wherein the surface comprises a clearance, and wherein at least a portion of the threaded rod is configured to be received in the clearance when the replaceable staple cartridge is seated in the staple cartridge jaw.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US11717365",
+      "title": "Laparoscopic ultrasound robotic surgical system",
+      "date": "2023-08-08",
+      "cpc": "A61B34/37, A61B8/00, A61B8/12",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "A LUS robotic surgical system is trainable by a surgeon to automatically move a LUS probe in a desired fashion upon command so that the surgeon does not have to do so manually during a minimally invasive surgical procedure. A sequence of 2D ultrasound image slices captured by the LUS probe according to stored instructions are processable into a 3D ultrasound computer model of an anatomic structure, which may be displayed as a 3D or 2D overlay to a camera view or in a PIP as selected by the surgeon or programmed to assist the surgeon in inspecting an anatomic structure for abnormalities. Virtual fixtures are definable so as to assist the surgeon in accurately guiding a tool to a target on the displayed ultrasound image.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US11786313",
+      "title": "Apparatus for robotic joint arthroscopic surgery",
+      "date": "2023-10-17",
+      "cpc": "A61B34/35, A61B34/10, A61B34/20",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "Methods, apparatuses, and systems for performing robotic joint arthroscopic surgery are disclosed. The disclosed systems use a surgical robot to perform robotic joint arthroscopic surgery for soft tissue. The disclosed systems enable a surgeon or physician to perform a virtual surgical procedure in a virtual environment, storing robotic movements, workflow objects, user inputs, or a description of tools used. The surgical robot filters the stored data to determine a surgical workflow from the stored data. The surgical robot displays information describing a surgical step in the surgical workflow, enabling the surgeon or physician to optionally adjust the surgical workflow. The surgical robot stores the optional adjustments and performs the surgical procedure on a patient by executing surgical actions of the surgical workflow.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US11844575",
+      "title": "Digital image analysis for robotic installation of surgical implants",
+      "date": "2023-12-19",
+      "cpc": "A61B34/10, A61B1/000094, A61B18/14",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "Computer-implemented digital image analysis methods, apparatuses, and systems for robotic installation of surgical implants are disclosed. A disclosed apparatus plans a route within an anatomy of a patient from an incision site to a surgical implant site for robotic installation of a surgical implant. The apparatus uses digital imaging data to identify less-invasive installation paths and determine the dimensions of the surgical implant components being used. The apparatus segments the surgical implant into surgical implant subcomponents and modifies the surgical implant subcomponents, such that they can be inserted using the identified less-invasive installation paths.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US11850093",
+      "title": "Surgical system with combined laser ablation/ imaging tool",
+      "date": "2023-12-26",
+      "cpc": "A61B8/4488, A61B8/12, A61B8/445",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "In one embodiment of the invention, a robotic surgical system includes a combined laser imaging robotic surgical tool, a control console, and a laser generator/controller. The tool is mounted to a first robotic arm of a patient side cart. The tool has a wristed joint and an end effector coupled together. The end effector has a laser-emitting device to direct a laser beam onto tissue in a surgical site and an image-capturing device to capture images of the tissue in the surgical site. The control console, in communication with the tool, receives the captured images of tissue in the surgical site and displays the captured images on a display device to a user. The laser generator/controller is coupled to the tool and the control console to control the emission of the laser beam onto tissue of the surgical site.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US11896328",
+      "title": "Robotic arthroscopic surgery for joint repair",
+      "date": "2024-02-13",
+      "cpc": "A61B34/30, A61B34/10, A61B34/25",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "Methods, apparatuses, and systems performing robotic arthroscopic surgery for extensor retinaculum are disclosed. The disclosed surgical robot receives user inputs, workflow objects, and data files containing surgical actions for robotic movements from a surgery network. The surgical tools required for performing the robotic arthroscopic surgery are displayed on a user interface for the surgical tools to be enabled or disabled. The robotic arthroscopic surgical steps are displayed on the user interface in a sequence to enable execution of the data files containing the robotic movements. The robotic movements are used to perform surgical steps or assist a surgeon in performing surgical steps.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US11896329",
+      "title": "Robotic arthroscopic surgery with machine learning",
+      "date": "2024-02-13",
+      "cpc": "A61B34/30, A61B1/000096, A61B1/00194",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "Methods, apparatuses, and systems for performing machine learning (ML) for robotic arthroscopic surgery are disclosed. The disclosed systems use ML to provide recommendations and methods for automated robotic ankle arthroscopic surgery. Historical patient data is filtered to match particular parameters of a patient. The parameters are correlated to the patient. A robotic surgical system or a surgeon reviews the historical patient data to select or adjust the historical patient data to generate a surgical workflow for a surgical robot to perform the robotic arthroscopic surgery.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US11908566",
+      "title": "Edge computing for robotic telesurgery using artificial intelligence",
+      "date": "2024-02-20",
+      "cpc": "B25J9/163, G05B2219/40168, G05B2219/40174",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "Methods, apparatuses, and systems for edge computing for robotic telesurgery using artificial intelligence are disclosed. A robotic surgical system includes surgery equipment and can communicate via a cloud network. The system can include operation room (OR) equipment and a surgical computer. The surgical computer transfers data between a remote surgeon, the OR equipment, and the surgery equipment. The surgical computer receives, using the OR equipment and the surgery equipment, data related to a surgical procedure. The data is related to the surgical procedure and is computed using artificial intelligence (AI). The surgical computer determines a risk assessment based on data related to the surgery equipment. The surgical computer sends an indication of the determined risk assessment to the remote surgeon.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US11918212",
+      "title": "Surgical instrument with selectively disengageable drive systems",
+      "date": "2024-03-05",
+      "cpc": "A61B17/07207, A61B17/07292, A61B2017/07242",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "A surgical instrument including a surgical end effector and a threaded rotary input shaft. An actuator member is in operable engagement with the surgical end effector and is in selective threaded engagement with the threaded rotary input shaft such that when the actuator member is in an engaged configuration, rotation of said threaded rotary input shaft causes the actuator member to move axially to impart an actuation motion to the surgical end effector and when the actuator member is in a disengaged configuration, rotation of the threaded rotary input shaft will not be imparted to the actuator member. A switch may be employed for selectively moving the actuator between the engaged and disengaged configurations. A locking system may be employed for preventing axial movement of the actuator member when the actuator member is in the disengaged configuration.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US11918296",
+      "title": "Digital image analysis for in vivo robotic assembly of multi-component implants",
+      "date": "2024-03-05",
+      "cpc": "A61B34/10, A61B34/25, A61B34/37",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "Methods, apparatuses, and systems for performing custom surgical implant design are disclosed. The disclosed apparatus designs and installs customized surgical implants to minimize the recovery of the patient. The system uses imaging data to identify the least invasive installation path, and determines the maximum dimensions of the surgical implant components. The system virtually segments the surgical implant into subcomponents, and modifies the subcomponents such that they can be inserted following the identified least invasive path.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US11918310",
+      "title": "Interactive extended-reality system for robotic medicine",
+      "date": "2024-03-05",
+      "cpc": "A61B34/35, A61B34/25, A61B34/30",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "Methods, apparatuses, and systems for performing robotic surgery in an extended-reality (XR) surgical simulation environment are disclosed. A patient anatomical model is generated. An XR surgical simulation environment is generated that includes the patient anatomical model. The XR surgical simulation environment is configured to enable the user to virtually perform surgical steps on the patient anatomical model. Anatomical mapping input is received from a user viewing the patient anatomical model. Confidence-score augmented-reality (AR) mapping is performed to meet a confidence threshold for a procedure to be performed on the patient. A portion of the received anatomical mapping data is selected for AR mapping to an anatomy of the patient. The selected anatomical mapping data is mapped to corresponding anatomical features. An AR environment is displayed to the user, wherein the AR environment includes the mapping of the selected anatomical mapping data to the corresponding anatomical features.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US11931118",
+      "title": "Robotic surgical system for remotely monitoring surgical robots",
+      "date": "2024-03-19",
+      "cpc": "A61B34/37, A61B34/25, B25J9/163",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "Methods, apparatuses, and systems for providing updates to a surgical robot in which a surgical robot receives a notification that there is an update available or detects a new hardware component that has been attached to the surgical robot. The surgical robot then determines if it is currently in use or is inactive and if inactive the surgical robot downloads the latest update. Additionally, the system provides a process of remote monitoring of telesurgical robots for safety and redundancy, in which the surgical robot collects data representing at least one assistance parameter of the surgical robot during a surgical procedure. The data is assessed, and it is determined if non-surgical assistance is required and connecting the medical professional to a technician to resolve the potential issue.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US11957423",
+      "title": "Multi-arm surgical robotic system",
+      "date": "2024-04-16",
+      "cpc": "G16H20/40, G16H40/20, G16H40/63",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "A robotic surgery system comprising a plurality of motorized robotic arms of a surgical robot configured to perform surgical steps on a patient and a display system for multi-user control of the robot of a surgical procedure. The display system includes a console including left and right hand-operated input devices physically manipulatable by a first user and a viewer configured to display one or more instruments carried by the plurality of robotic arms to the second user. The display system also includes a second user device configured to display a graphical user interface having patient data of the patient and an authorization input for a second user to be authorized to switch control of at least one of the robotic arms from the first user to the second user.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US11998281",
+      "title": "Extended-reality operating room for robotic surgery",
+      "date": "2024-06-04",
+      "cpc": "A61B34/10, A61B90/36, A61B90/361",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "Methods, apparatuses, and systems for performing robotic surgery in an extended reality (XR) collaborative customizable virtual operating room are disclosed. The disclosed systems provide a virtual environment in which a surgical robot network receives medical images of a patient and creates a digital twin from a patient's medical images. The surgical robot network allows a first user to create a virtual environment to perform a surgical procedure, select workflow objects, and perform actions on the digital twin. The data of the workflow objects and actions in relation to the digital twin is stored. The first user invites a second user to join the virtual environment who may collaborate with the first user on the workflow objects and actions performed to adjust the workflow, workflow objects, and actions performed. The workflow, workflow objects, actions in relation to the digital twin are sent to a surgical robot.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US12035988",
+      "title": "In situ end effector tool changer",
+      "date": "2024-07-16",
+      "cpc": "A61B34/10, A61B34/20, A61B34/25",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "Methods, apparatuses, and systems for in situ end effector tool changers for a surgical robot are provided. The surgical robot receives information describing user inputs, tools, tool connectors, and data files containing surgical actions for robotic movements from a surgery network. The surgical robot extracts tool connectors for a surgical step in the surgical process and attaches the tool connectors. The surgical robot extracts surgical tools for the surgical step and attaches the tool connectors. The surgical robot extracts a data file containing movements of the end effectors of the surgical robot to perform a surgical action or function. The surgical robot executes the data file to perform the action or function to complete a step in the surgical process.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US12076017",
+      "title": "Surgical instrument including a deployable knife",
+      "date": "2024-09-03",
+      "cpc": "A61B17/105, A61B17/068, A61B17/07292",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "An apparatus comprises a body, a shaft assembly, an end effector, a cartridge, and a staple driver actuator. The end effector is operable to manipulate tissue. The end effector comprises a lower jaw, a pivotable anvil, and a translating cutter. The translating cutter is operable to translate relative to the lower jaw and the anvil when the anvil is pivoted toward the lower jaw to manipulate tissue. The cartridge is insertable into the lower jaw and includes a plurality of staples. The staple driver actuator is disposed within the cartridge. The staple driver actuator comprises a secondary cutting element. The translating cutter of the end effector is operable to drive the staple driver actuator distally to staple and cut tissue substantially simultaneously.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US12201369",
+      "title": "Interactive extended-reality apparatuses for robotic surgery",
+      "date": "2025-01-21",
+      "cpc": "A61B34/10, A61B34/20, A61B34/25",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "Methods, apparatuses, and systems for performing robotic surgery in an extended-reality (XR) surgical simulation environment are disclosed. The disclosed systems provide a surgical metaverse in which a surgical robot network receives medical images of a patient. A digital twin is generated from the medical images that enables generation of a virtual surgical simulation environment for performing a surgical procedure. Necessary workflow objects for the procedure are selected and surgical actions are performed on the digital twin. Data of the workflow objects and actions in relation to the digital twin are stored. The surgical robot network generates a surgical workflow based on the workflow objects and actions and compares the surgical workflow to historical workflows to allow adjustment of the workflow in the surgical simulation virtual environment. The workflow, workflow objects, and actions in relation to the digital twin are sent to the surgical robot.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US12239396",
+      "title": "Medical robotic system providing an auxiliary view including range of motion limitations for articulatable instruments extending out of a distal end of an entry guide",
+      "date": "2025-03-04",
+      "cpc": "A61B90/361, A61B1/00149, A61B1/00183",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "A medical system comprises an entry guide, a display, and a processor. The processor may be configured to receive state information for an articulatable image capture device controllably extendable out of a distal end of the entry guide. The processor may be configured to generate a view including a graphical representation of a distal end portion of the articulatable image capture device as determined from the received state information and a graphical representation of a field of view of the articulatable image capture device extending distally from the distal end portion of the articulatable image capture device. The processor may also cause the view to be displayed on the display.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US12245822",
+      "title": "Surgical robot evolution and handoff",
+      "date": "2025-03-11",
+      "cpc": "A61B34/10, A61B34/20, A61B34/30",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "Methods, apparatuses, and systems for autonomous surgical robot evolution and handoff for manual operation are disclosed. A robotic surgical system performs surgery and is controlled jointly by an artificial intelligence (AI) and a surgeon. The surgeon can perform the entire surgery or can alternatively allow the AI to control the surgical robot to perform a part of or the entirety of the surgery. The AI is trained using data from previous surgeries, can provide indication to the surgeon when it has been sufficient trained to take over parts of a surgery, and can prompt the surgeon when there is insufficient training data for the AI to continue. Alternatively, a supervising surgeon can manually take back control of the surgical robot from the AI.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US12245826",
+      "title": "Robotic surgical systems with multi-modality imaging for performing surgical steps",
+      "date": "2025-03-11",
+      "cpc": "A61B34/30, A61B5/0022, A61B5/0035",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "Methods, apparatuses, and systems for automated disease detection using multiple-wavelength imaging are disclosed. The disclosed system uses multiple imaging modalities for assessing a medical condition. Data collected from multiple cameras and imaging modalities is processed to identify common structures. The common structures are used to scale and align images, which are analyzed to detect one or more medical conditions. Each acquired image is assessed, and the resulting probabilities are consolidated. The images can be assessed together by using artificial intelligence and machine learning.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US12266040",
+      "title": "Rendering tool information as graphic overlays on displayed images of tools",
+      "date": "2025-04-01",
+      "cpc": "A61B34/25, A61B34/30, A61B34/37",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "A system comprises: a robotic arm operatively coupleable to a tool comprising a working end; and an input device communicatively coupled to the robotic arm. The input device is manipulatable by an operator. The system further comprises a processor configured to cause an image of a work site, captured by an image capture device from a perspective of an image reference frame, to be displayed on a display. The image of the work site includes an image of the working end of the tool. The processor is further configured to determine a position of the working end of the tool in the image of the work site and render a tool information overlay at the position of the working end of the tool in the image of the work site. The tool information overlay visually indicates an identity of the input device.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US12303125",
+      "title": "Methods, systems and devices for storing suture needles and using robotics for delivering selected suture needles to surgical sites",
+      "date": "2025-05-20",
+      "cpc": "A61B17/06119, A61B17/062, A61B34/30",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "A surgical method includes arranging a plurality of suture needle containers in a surgical environment, whereby at least one of the suture needle containers includes a receptacle having a proximal end with an opening and a distal end that is closed by an end wall, a suture needle disposed within the receptacle, and a cover sealing the opening at the proximal end of the receptacle for maintaining a sterile environment for the suture needle inside the receptacle. The method includes causing a controller of a surgical robotic system to transmit input instructions to an electromechanical tool for breaching the cover for providing access to the suture needle disposed within the receptacle. After breaching the cover, a distal end of a surgical tool secures the suture needle for removing the secured suture needle from the opening at the proximal end of the receptacle.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US12357152",
+      "title": "Artificial intelligence-based medical 3D scanner",
+      "date": "2025-07-15",
+      "cpc": "A61B1/000094, A61B1/00, A61B1/00193",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "Systems and methods for three-dimensional imaging, modeling, mapping, and/or control capabilities in compact size suitable for integration with and/or augmentation of robotic, laparoscopic, and endoscopic surgical systems. The systems including at least one optical source configured to project onto a surgical or endoscopic environment, and at least two cameras positioned to capture at least one image of the surgical or endoscopic environment.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US12357400",
+      "title": "Synthetic representation of a surgical robot",
+      "date": "2025-07-15",
+      "cpc": "A61B34/30, A61B34/20, A61B34/37",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "A system comprises a first robotic arm adapted to support and move a tool and a second robotic arm adapted to support and move a camera configured to capture an image of a camera field of view. The system further comprises an input device, a display, and a processor. The processor is configured to display a first synthetic image including a first synthetic image of the tool. The first synthetic image of the tool includes a portion of the tool outside of the camera field of view. The processor is also configured to receive a user input at the input device and responsive to the user input, change the display of the first synthetic image to a display of a second synthetic image including a second synthetic image of the tool that is different from the first synthetic image of the tool.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US12440208",
+      "title": "Powered surgical instrument",
+      "date": "2025-10-14",
+      "cpc": "A61B17/07207, A61B18/1445, A61B90/98",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "A method of operating a surgical instrument is disclosed. The surgical instrument includes an electronic system comprising an electric motor coupled to the end effector; a motor controller coupled to the motor; a parameter threshold detection module configured to monitor multiple parameter thresholds; a sensing module configured to sense tissue compression; a processor coupled to the parameter threshold detection module and the motor controller; and a memory coupled to the processor. The memory stores executable instructions that when executed by the processor cause the processor to monitor multiple levels of action thresholds and monitor speed of the motor and increment a drive unit of the motor, sense tissue compression, and provide rate and control feedback to the user of the surgical instrument.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US12508094",
+      "title": "Curved gimbal link geometry",
+      "date": "2025-12-30",
+      "cpc": "A61B34/74, A61B34/35, A61B34/37",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "A control input assembly including a first link and a second link. A link housing extends from a second link first end portion to a second link second end portion. The second link first end portion is coupled to a first link second end portion via a joint shaft. An actuator is mounted within the link housing and the actuator defines an actuator axis. The actuator is configured to exert a torque on the joint shaft. The actuator axis and a rotational axis of the join shaft defines an offset angle, the offset angle being between about 20 degrees and 70 degrees.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US12582480",
+      "title": "Digital image analysis for robotic installation of surgical implants",
+      "date": "2026-03-24",
+      "cpc": "A61B34/37, A61B34/30, A61B2034/2055",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "Computer-implemented digital image analysis methods, apparatuses, and systems for robotic installation of surgical implants are disclosed. A disclosed apparatus plans a route within an anatomy of a patient from an incision site to a surgical implant site for robotic installation of a surgical implant. The apparatus uses digital imaging data to identify less-invasive installation paths and determine the dimensions of the surgical implant components being used. The apparatus segments the surgical implant into surgical implant subcomponents and modifies the surgical implant subcomponents, such that they can be inserted using the identified less-invasive installation paths.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US12605209",
+      "title": "Minimally invasive telesurgical systems with interactive user interfaces for 3D operative images",
+      "date": "2026-04-21",
+      "cpc": "A61B34/10, A61B1/00193, A61B8/12",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "A minimally invasive surgical system is disclosed including a processor coupled to a stereoscopic endoscope and a stereoscopic video display device. The processor generates an operative image of an anatomic structure in the surgical site, overlays the operative image onto the captured stereo video images for display on the stereoscopic video display device, generates and overlays a pointer onto the operative image or the captured stereo video images to display the pointer on the stereoscopic video display device with a three dimensional appearance, and switches between a first mode for input devices of a surgeon console used to couple motion into surgical instruments and a second mode used to control an interactive graphical user interface to allow interactions with the pointer and the operative image in three dimensions using input devices having at least three degrees of freedom.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US20070293734",
+      "title": "METHODS AND APPARATUS FOR SURGICAL PLANNING",
+      "date": "2007-12-20",
+      "cpc": "A61B34/10, A61B34/25, A61B34/30",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "Methods and apparatus for enhancing surgical planning provide enhanced planning of entry port placement and/or robot position for laparoscopic, robotic, and other minimally invasive surgery. Various embodiments may be used in robotic surgery systems to identify advantageous entry ports for multiple robotic surgical tools into a patient to access a surgical site. Generally, data such as imaging data is processed and used to create a model of a surgical site, which can then be used to select advantageous entry port sites for two or more surgical tools based on multiple criteria. Advantageous robot positioning may also be determined, based on the entry port locations and other factors. Validation and simulation may then be provided to ensure feasibility of the selected port placements and/or robot positions. Such methods, apparatus and systems may also be used in non-surgical contexts, such as for robotic port placement in munitions diffusion or hazardous waste handling.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US20110166706",
+      "title": "MEDICAL ROBOTIC SYSTEM WITH SLIDING MODE CONTROL",
+      "date": "2011-07-07",
+      "cpc": "A61B34/70, A61B34/30, A61B34/37",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "A medical robotic system has a joint coupled to medical device or a slave manipulator or robotic arm adapted to hold and/or move the medical device for performing a medical procedure, and a control system for controlling movement of the joint according to user manipulation of a master manipulator. The control system includes at least one joint controller having a sliding mode control for reducing stick-slip behavior on its controlled joint during fine motions of the joint. The sliding mode control computes a distance to a sliding surface, computes a reaching law gain, and processes the distance and reaching law gain to generate a sliding mode control action that is in absolute value less that a maximum desired feedback control action. The sliding mode control action is then further processed to generate a feedback torque command for the joint motor.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US20110201885",
+      "title": "ENVIRONMENT PROPERTY ESTIMATON AND GRAPHICAL DISPLAY",
+      "date": "2011-08-18",
+      "cpc": "A61B90/37, A61B34/10, A61B34/30",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "A surgical robot including an imaging system comprising at least one camera, a processor in communication with the imaging system, a manipulation system in communication with the processor, and a visual display in communication with the processor. The processor is operable to calculate a stiffness estimate for an area of an environment based on an environment model of tool-environment interaction data, create a composite image comprising a stiffness map of the stiffness estimate overlaid on an environment image from the at least one camera, and output the composite image on the visual display.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US20120109377",
+      "title": "AUTOFOCUS AND/OR AUTOSCALING IN TELESURGERY",
+      "date": "2012-05-03",
+      "cpc": "A61B1/00188, A61B34/30, A61B34/35",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "Robotic, telerobotic, and/or telesurgical devices, systems, and methods take advantage of robotic structures and data to calculate changes in the focus of an image capture device in response to movement of the image capture device, a robotic end effector, or the like. As the size of an image of an object shown in the display device varies with changes in a separation distance between that object and the image capture device used to capture the image, a scale factor between a movement command input may be changed in response to moving an input device or a corresponding master/slave robotic movement command of the system. This may enhance the perceived correlation between the input commands and the robotic movements as they appear in the image presented to the system operator.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US20120290005",
+      "title": "SUTURE FASTENING DEVICE",
+      "date": "2012-11-15",
+      "cpc": "A61B17/062, A61B17/0469, A61B17/0483",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "An apparatus is operable to secure suture fasteners to sutures to eliminate the need to tie knots in the sutures. The apparatus comprises a shaft, an end effector disposed at the distal end of the shaft, and a suture fastener removably secured to the end effector. The end effector may include a pivoting jaw or a suture cutter. The suture fastener may be secured to one, two, or more strands of suture. The apparatus may include several suture fasteners and may secure those fasteners to one or more sutures in a serial fashion without having to remove the apparatus from the patient for reloading. A plurality of fasteners may be arranged within the apparatus in an end-to-end configuration. The suture fastener may include an inner fastener member and an outer fastener member, and may capture one or more strands of suture between the inner and outer fastener members.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US20130267969",
+      "title": "CONTROL INTERFACE FOR LAPAROSCOPIC SUTURING INSTRUMENT",
+      "date": "2013-10-10",
+      "cpc": "A61B17/0469, A61B17/0491, A61B17/0625",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "An apparatus comprises an end effector, a shaft assembly, and a drive assembly. The end effector comprises needle receiving arms operable to grasp a needle. The drive assembly comprises drive members that are rotatable about respective drive axes that are perpendicular to the axis of the shaft assembly. The drive assembly is operable to drive the needle receiving arms to selectively engage and disengage the needle; and to selectively pass the needle from one needle receiving arm to the other needle receiving arm. The drive assembly provides an interface to a controller that is operable via a remote user interface. The drive assembly may include helical gears, clutch assemblies, a rack and pinion, or other components to convert motion of the drive members into motion at the end effector.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US20140253684",
+      "title": "VISUALIZATION OF REGISTERED SUBSURFACE ANATOMY",
+      "date": "2014-09-11",
+      "cpc": "A61B1/000094, A61B1/3132, A61B34/30",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "A system and method for visualization of subsurface anatomy includes obtaining a first image from a first camera and a second image from a second camera or a second channel of the first camera, where the first and second images contain shared anatomical structures. The second camera and the second channel of the first camera are capable of imaging anatomy beneath the surface in ultra-violet, visual, or infra-red spectrum. A data processor is configured for computing registration of the first image to the second image to provide visualization of subsurface anatomy during surgical procedures. A visual interface displays the registered visualization of the first and second images. The system and method are particularly useful for imaging during minimally invasive surgery, such as robotic surgery.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US20150289755",
+      "title": "MULTI-VIEW IMAGING SYSTEM FOR LAPAROSCOPIC SURGERY",
+      "date": "2015-10-15",
+      "cpc": "A61B1/00096, A61B1/00179, A61B1/00193",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "The invention concerns a multi-view imaging system for laparoscopic surgery comprising: A tubular member; A first imaging device having a longitudinal body and an active end for acquiring images, intended to be inserted through the tubular member, and movable in the tubular member in translation along the longitudinal axis and/or in rotation about the longitudinal axis; A second imaging device comprising at least two cameras each mounted on a support member and movable relative to the tubular member between: a stowed position in which the cameras are positioned inside the tubular member, and a deployed position in which the cameras are positioned outside the tubular member at the distal end, the cameras being arranged on either side of the longitudinal axis of the tubular member and being held secure relative to the tubular member by holding means, so as to follow any movement of the tubular member.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US20160184605",
+      "title": "Direct visualization Robotic Intra-Operative Radiation Therapy Device with Radiation Ablation Capsule and Shutter System",
+      "date": "2016-06-30",
+      "cpc": "A61N5/1083, A61N5/1014, A61N5/1042",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "This invention proposes a robotic applicator device to be deployed internally to a patient having a capsule (also referred to as a cassette) and aperture with a means of alternately occluding and exposing a radioactive source through the aperture. The capsule and aperture will be integrated with a surgical robot to create a robotic IORT (intra-operative radiation therapy) applicator device as more fully described below. The capsule, radiation source, and IORT applicator arm would be integrated to enable a physician, physicist or technician to interactively internally view and select tissue for exposure to ionizing radiation in sufficient quantities to deliver therapeutic radiation doses to tissue. Via the robotic manipulation device, the physician and physicist would remotely apply radiation to not only the tissue to be exposed, but also control the length of time of the exposure. Control means would be added to identify and calculate margin and depth of tissue to be treated and the proper radiation source or radioactive isotope (which can be any particle emitter, including neutron, x-ray, alpha, beta or gamma emitter) to obtain the desired therapeutic effects. The invention enables stereotactical surgery and close confines radiation therapy adjacent to radiosensitive tissue.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US20180042680",
+      "title": "INTERACTIVE USER INTERFACES FOR MINIMALLY INVASIVE TELESURGICAL SYSTEMS",
+      "date": "2018-02-15",
+      "cpc": "A61B1/0005, A61B1/000094, A61B1/0004",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "In one embodiment of the invention, a a minimally invasive surgical system is disclosed. The system configured to capture and display camera images of a surgical site on at least one display device at a surgeon console; switch out of a following mode and into a masters-as-mice (MaM) mode; overlay a graphical user interface (GUI) including an interactive graphical object onto the camera images; and render a pointer within the camera images for user interactive control. In the following mode, the input devices of the surgeon console may couple motion into surgical instruments. In the MaM mode, the input devices interact with the GUI and interactive graphical objects. The pointer is manipulated in three dimensions by input devices having at least three degrees of freedom. Interactive graphical objects are related to physical objects in the surgical site or a function thereof and are manipulatable by the input devices.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US20180214222",
+      "title": "WIRELESS FORCE SENSOR ON A DISTAL PORTION OF A SURGICAL INSTRUMENT AND METHOD",
+      "date": "2018-08-02",
+      "cpc": "A61B34/30, A61B34/35, A61B34/37",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "A surgical instrument includes a distal portion. A force sensor is operatively mounted on the distal portion. The force sensor includes a wireless package, which wirelessly provides (1) identification information of the surgical instrument and (2) strain data related to the distal portion. A surgical end effector includes a jaw and the distal portion is on a non-contact portion of the jaw. The wireless package includes a surface acoustic wave strain sensor with identification information. The wireless package also includes a small folded antenna electrically coupled to the surface acoustic wave strain sensor with identification information. The identification information includes an identification of a type of surgical instrument and unique identification of the specific surgical instrument in the type of surgical instrument.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US20190336226",
+      "title": "TRAINING SYSTEM FOR ROBOT-ASSISTED LAPAROSCOPIC SURGERY",
+      "date": "2019-11-07",
+      "cpc": "G09B23/285, A61B34/35, A61B34/74",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "A training system for robot-assisted laparoscopic surgery is described. The training system includes a surgeon console in operative communication with a medical surgical robot, comprising (1) a pair of hand-operated controllers for manipulation by a surgeon to control the medical surgical robot, and (2) at least one hand motion sensing device trained on the hand-operated controllers for generating information indicative of hand motions of the surgeon made while manipulating the pair of hand-operated controllers. The training system includes a procedural monitor configured to display images of movements of the surgical instruments by the medical surgical robot at an intracorporeal surgical site, and a hand motion monitor in operative communication with the hand motion sensing device and configured to display images of hand motions of the surgeon as detected by the hand motion sensing device during manipulation of the pair of hand-operated controllers by the surgeon.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US20200113639",
+      "title": "MASTER OPERATION INPUT DEVICE AND MASTER-SLAVE MANIPULATOR",
+      "date": "2020-04-16",
+      "cpc": "A61B34/74, A61B34/37, A61B2034/741",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "A remote control apparatus according to an embodiment may be a master operation input device for operating a slave manipulator which detachably holds a surgical instrument. The master operation input device may include a support mechanism, an arm portion including a plurality of joints and supported by the support mechanism and an operating handle arranged at a distal end of the arm portion. The operating handle includes a master operation main body arranged at the distal end of the arm portion, a first operating portion and a second operating portion which are supported on the master operation main body so as to be capable of pivoting with respect to the master operation main body to enable opening and closing operations, and a grip configured to be attachable and detachable to and from a distal end of the master operation main body.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US20200405418",
+      "title": "SURGICAL SIMULATION SYSTEM USING FORCE SENSING AND OPTICAL TRACKING AND ROBOTIC SURGERY SYSTEM",
+      "date": "2020-12-31",
+      "cpc": "A61B34/35, A61B18/00, A61B34/30",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "A surgical simulation device includes a support structure and animal tissue carried in a tray. A simulated human skeleton is carried by the support structure above the animal tissue and includes simulated human skin. A camera images the animal tissue and an image processor receives images of markers positioned on the ribs and animal tissue and forms a three-dimensional wireframe image. An operating table is adjacent a local robotic surgery station as part of a robotic surgery station and includes at least one patient support configured to support the patient during robotic surgery. At least one patient force/torque sensor is coupled to the at least one patient support and configured to sense at least one of force and torque experienced by the patient during robotic surgery.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US20210137636",
+      "title": "DEVICE FOR PROVIDING AN INTERFACE BETWEEN A MEDICAL INSTRUMENT AND A PART OF A HUMAN OR ANIMAL BODY AND METHODS OF USE THEREOF",
+      "date": "2021-05-13",
+      "cpc": "A61B90/37, A61B8/4209, A61B8/4444",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "A device for providing an interface between a medical instrument and a part of a human or animal body, the device comprising: at least one connecting part configured to allow attachment of the medical instrument thereto; and an attachment device configured to detachably attach the connecting part to the part of the human or animal body.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US20210282887",
+      "title": "SURGICAL AUGMENTED REALITY",
+      "date": "2021-09-16",
+      "cpc": "A61B34/37, A61B34/20, A61B90/361",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "Devices, systems, and methods for augmented reality in surgical environments include an optical lens, which may be wearable by the user, and an augmented reality control system for generating an augmented reality presentation in the optical lens. The augmented reality presentation can depict the surgical area of the patient while artificially omitting one or more obstructions from the user's view point of the surgical area.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US20230014454",
+      "title": "FORMING A CUSTOM FITTED MESH BASED ON A TOPOGRAPHICAL MAP OF A PATIENT'S ABDOMINAL CAVITY",
+      "date": "2023-01-19",
+      "cpc": "B33Y80/00, B33Y50/02, A61B34/30",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "The present disclosure relates generally to hernia repair, and more specifically to forming a custom fitted mesh based on a topographical map of at least one portion of a patient's abdominal cavity. Some specific aspects of the present disclosure relate to exemplary methods, systems, devices and computer readable mediums for forming a custom fitted mesh based on a topographical map of the at least one portion of the patient's abdominal cavity.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US20230100415",
+      "title": "SURGICAL SEALING SYSTEMS FOR INSTRUMENT STABILIZATION",
+      "date": "2023-03-30",
+      "cpc": "A61B5/0075, A61B17/3423, A61B17/3462",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "Surgical sealing systems are provided. In one exemplary embodiment, a surgical sealing system includes a seal housing having a plurality of ports, in which each of port has a nominal size and shape, is configured to assume a selected and/or shape that is different from the nominal size and shape, and is constrained by the size and shape of each of the other plurality of ports. The position of an instrument and a force applied thereto is effective to change the size and/or shape of the ports based on the movement, direction, and force of the instrument, and the ability to alter the nominal shape of any one port is constrained or limited by the size and shape of the other ports, thereby enabling a force applied to one instrument positioned within one of the plurality of ports to stabilize at least one other instrument positioned within others of the plurality of ports.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US20230181258",
+      "title": "ROBOTIC SURGICAL SYSTEM FOR INSERTION OF SURGICAL IMPLANTS",
+      "date": "2023-06-15",
+      "cpc": "A61B34/10, A61B5/08, A61B5/145",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "Methods, apparatuses, and systems for performing robotic surgery in an extended-reality (XR) surgical simulation environment are disclosed. A patient anatomical model is generated. An XR surgical simulation environment is generated that includes the patient anatomical model. The XR surgical simulation environment is configured to enable the user to virtually perform surgical steps on the patient anatomical model. Anatomical mapping input is received from a user viewing the patient anatomical model. Confidence-score augmented-reality (AR) mapping is performed to meet a confidence threshold for a procedure to be performed on the patient. A portion of the received anatomical mapping data is selected for AR mapping to an anatomy of the patient. The selected anatomical mapping data is mapped to corresponding anatomical features. An AR environment is displayed to the user, wherein the AR environment includes the mapping of the selected anatomical mapping data to the corresponding anatomical features.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US20230215554",
+      "title": "SYSTEM FOR MAINTAINING AND CONTROLLING SURGICAL TOOLS",
+      "date": "2023-07-06",
+      "cpc": "A61B34/30, A61B5/6846, A61B5/741",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "Methods, apparatuses, and systems for maintaining and controlling surgical tools are disclosed. For each surgical tool, a surgeon can give verbal commands which can result in feedback provided by a synthesized voice or the execution of an action as instructed by the verbal command. The tools are monitored during use to ensure the tools remain within their operating parameters. The system alerts the surgeon should the tools approach their operational limitations.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US20230270562",
+      "title": "SYNCHRONIZED PLACEMENT OF SURGICAL IMPLANT HARDWARE",
+      "date": "2023-08-31",
+      "cpc": "G06F30/20, A61B5/0022, A61B5/02055",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "Methods, apparatuses, and systems for robotic insertion of a screw, a rod, or another component of a surgical implant into a patient are disclosed. Synchronous insertion of screws is performed by multiple surgical robots or a single surgical robot having multiple arms and end effectors. The movements of each robotic arm are coordinated into position in preparation of the insertion of multiple surgical implant components at the same time or in the same surgical step. The insertion of the surgical implant components is performed while monitoring the insertion progress. The insertion is completed autonomously or in coordination with a surgeon.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US20240050232",
+      "title": "Methods and system for cartilage restoration",
+      "date": "2024-02-15",
+      "cpc": "A61B34/10, A61B2034/102, A61B2034/105",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "Methods and systems for cartilage restoration. A 3-dimensional anatomic map is obtained for a recipient joint tissue that includes a normal area and a diseased area. A 3-dimensional patient-specific graft model is developed that will restore the diseased area to its healthy form. A 3-dimensional anatomic map is obtained for a donor joint tissue and the recipient anatomic map and/or the graft model are compared to the donor anatomic map to determine the suitability of the associated donor joint tissue to restoring the recipient joint to its healthy form. The donor joint tissue is shaped to conform to the graft model, thereby forming a patient-specific graft.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US20240122649",
+      "title": "DIGITAL IMAGE ANALYSIS FOR DEVICE NAVIGATION IN TISSUE",
+      "date": "2024-04-18",
+      "cpc": "A61B34/10, A61B5/0036, A61B5/004",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "Methods, apparatuses, and systems for digital image analysis for device navigation in tissue are disclosed. The disclosed system uses real-time angiography and artificial intelligence to navigate an end effector of a surgical robot through a patient's vasculature to provide a surgical intervention. Digital imaging is performed that enables three-dimensional mapping of the patient's vasculature. Locations and movement of the end effector of the surgical robot are determined. The end effector is used to perform an intervention such as the removal of a blood clot or delivery of a drug for dissolving a blood clot.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US20240238617",
+      "title": "INTRA-OPERATIVE RADIATION THERAPY CAPSULE WITH CYLINDRICAL SHELL RADIATION CONTAINMENT SHUTTER SYSTEM",
+      "date": "2024-07-18",
+      "cpc": "A61B34/35, A61B90/361, A61B90/37",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "This invention proposes a capsule to administer radiation to a patient to be mounted on an arm, preferably a robotic arm such as on and in coordination with a Da Vinci® Surgical Robot, in order to control radiation exposure using a cylindrical shell shutter system designed to minimize leakage from a centrally located radiation source, while permitting full exposure of irradiated subject material or space when the cylindrical shell shutter system is opened. Using a series of concentric cylindrical shells which each contain an offset conically-shaped aperture from that of an adjacent cylindrical shell, when the cylindrical shells rotate into an “open” position, the apertures form a smooth cone to an outer emission aperture and expose the radiation source to adjacent tissue. When rotated to be “closed” or “off, the offset apertures and shells occlude the source, preventing full-strength radiation exposure and minimizing radiation leakage.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US20240245458",
+      "title": "APPARATUS FOR ROBOTIC JOINT ARTHROSCOPIC SURGERY",
+      "date": "2024-07-25",
+      "cpc": "A61B34/10, A61B34/25, A61B34/30",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "Methods, apparatuses, and systems for performing robotic joint arthroscopic surgery are disclosed. The disclosed systems use a surgical robot network that receives medical images of a patient and generates a 3D rendering of the various medical images. A surgeon or physician is enabled to select workflow objects (such as various tools). The workflow objects can be selected in a sequence for performing actions on the 3D rendering. Data related to the workflow objects and actions in relation to the 3D rendering are stored. The surgeon or physician is enabled to select and perform various repairing techniques and input calculations of the actions performed. The user inputs, workflow objects, and actions with respect to the 3D rendering are sent to a surgical robot for performing robotic joint arthroscopic surgery.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US20240398479",
+      "title": "ROBOTIC SURGICAL SYSTEM FOR VIRTUAL REALITY BASED ROBOTIC TELESURGICAL OPERATIONS",
+      "date": "2024-12-05",
+      "cpc": "A61B90/36, A61B34/10, A61B34/25",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "Methods, apparatuses, and systems for performing a virtual reality based robotic telesurgical demonstration, training, and credentialing are disclosed. A user may select from a variety of procedure simulations and perform a surgical procedure in a virtual environment. A virtual reality surgical simulation allows the user to demonstrate, train, or earn credentials based upon the user's performance. The simulations may provide the user with points, rankings, rewards, or credentials, in which the user can track their performance and progression as well as practice or fine tune their skills in a safe environment.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US20250009432",
+      "title": "DIGITAL IMAGE ANALYSIS FOR DEVICE NAVIGATION IN TISSUE",
+      "date": "2025-01-09",
+      "cpc": "A61B34/10, A61B34/20, A61B2034/104",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "Methods, apparatuses, and systems for digital image analysis for device navigation in tissue are disclosed. The disclosed system uses real-time angiography and artificial intelligence to navigate an end effector of a surgical robot through a patient's vasculature to provide a surgical intervention. Digital imaging is performed that enables three-dimensional mapping of the patient's vasculature. Locations and movement of the end effector of the surgical robot are determined. The end effector is used to perform an intervention such as the removal of a blood clot or delivery of a drug for dissolving a blood clot.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US20250032204",
+      "title": "COMPUTERIZED CONTROL AND NAVIGATION OF A ROBOTIC SURGICAL APPARATUS",
+      "date": "2025-01-30",
+      "cpc": "A61B34/25, A61B34/10, A61B34/20",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "The present disclosure provides a method for a surgical robot with extended operational range in which a user inputs the surgical robot's movements and locations in a CAD environment through a surgical robot network and the surgical robot movements and locations are stored as a data file. The surgical robot network sends the surgical robot movements and locations data files to the surgical robot which extracts the data file containing the surgical robot movements and locations. The surgical robot then executes the data files containing the surgical robot movements and locations and sends a completion status of the movements and locations and the surgical robot executes a data file containing the robotic movements to perform aspects of the surgical procedure.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US20250255678",
+      "title": "SYSTEM FOR TRANSCRIBING AND PERFORMING ANALYSIS ON PATIENT DATA",
+      "date": "2025-08-14",
+      "cpc": "G06V10/70, A61B90/90, A61B90/98",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "Methods, apparatuses, and systems for transcribing and performing analysis on patient data are disclosed. Data is collected from one or more medical professionals as well as sensors and imaging devices positioned on or oriented towards a patient. An analysis is performed on the patient data and the data is presented to a medical professional via a verbal interface in a conversational manner, allowing the medical professional to provide additional data such as observations or instructions which may be used for further analysis or to perform actions related to the patient's care.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US7741802",
+      "title": "Medical robotic system with programmably controlled constraints on error dynamics",
+      "date": "2010-06-22",
+      "cpc": "B25J9/1689, A61B34/30, A61B34/37",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "A medical robotic system has a robot arm holding an instrument for performing a medical procedure, and a control system for controlling movement of the arm and its instrument according to user manipulation of a master manipulator. The control system includes at least one joint controller that includes a controller having programmable parameters for setting a steady-state velocity error and a maximum acceleration error for the joint's movement relative to a set point in response to an externally applied and released force.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US8398541",
+      "title": "Interactive user interfaces for robotic minimally invasive surgical systems",
+      "date": "2013-03-19",
+      "cpc": "G16H20/40, A61B8/00, A61B8/12",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "In one embodiment of the invention, a method for a minimally invasive surgical system is disclosed. The method includes capturing and displaying camera images of a surgical site on at least one display device at a surgeon console; switching out of a following mode and into a masters-as-mice (MaM) mode; overlaying a graphical user interface (GUI) including an interactive graphical object onto the camera images; and rendering a pointer within the camera images for user interactive control. In the following mode, the input devices of the surgeon console may couple motion into surgical instruments. In the MaM mode, the input devices interact with the GUI and interactive graphical objects. The pointer is manipulated in three dimensions by input devices having at least three degrees of freedom. Interactive graphical objects are related to physical objects in the surgical site or a function thereof and are manipulatable by the input devices.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US8864752",
+      "title": "Control system configured to compensate for non-ideal actuator-to-joint linkage characteristics in a medical robotic system",
+      "date": "2014-10-21",
+      "cpc": "A61B34/30, A61B34/37, A61B34/71",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "A medical robotic system having non-ideal actuator-to-joint linkage characteristics, includes a control system including a proximal control loop with actuator sensor feedback to control dynamic response of an actuator coupled to a distal joint which in turn, is coupled to an end effector to provide a degree of freedom movement of the end effector, a distal control loop with distal joint sensor feedback and feedforward to the actuator to ensure steady-state convergence of the distal joint position, and an end effector control loop with end-point sensor feedback to control the end effector position to reach a commanded end effector position.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US8920300",
+      "title": "Direct visualization robotic intra-operative radiation therapy device with radiation ablation capsule",
+      "date": "2014-12-30",
+      "cpc": "A61N5/1001, A61N2005/1052, A61N2005/1055",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "This invention proposes a robotic applicator device to be deployed internally to a patient having a capsule (also referred to as a cassette) and aperture with a means of alternately occluding and exposing a radioactive source through the aperture. The capsule and aperture will be integrated with a surgical robot to create a robotic IORT (intra-operative radiation therapy) applicator device as more fully described below. The capsule, radiation source, and IORT applicator arm would be integrated to enable a physician, physicist or technician to interactively internally view and select tissue for exposure to ionizing radiation in sufficient quantities to deliver therapeutic radiation doses to tissue. Via the robotic manipulation device, the physician and physicist would remotely apply radiation to not only the tissue to be exposed, but also control the length of time of the exposure. Control means would be added to identify and calculate margin and depth of tissue to be treated and the proper radiation source or radioactive isotope (which can be any particle emitter, including neutron, x-ray, alpha, beta or gamma emitter) to obtain the desired therapeutic effects. The invention enables stereotactical surgery and close confines radiation therapy adjacent to radiosensitive tissue.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US9066737",
+      "title": "Method for moving an instrument arm of a laparoscopy robot into a predeterminable relative position with respect to a trocar",
+      "date": "2015-06-30",
+      "cpc": "A61B34/30, A61B90/11, A61B2034/2055",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "A method for moving an instrument arm of a laparoscopy robot into a predeterminable position relative to a trocar placed in a patient is proposed. A spatial marker that can be localized from outside of the patient is applied to the trocar. The spatial position of the trocar is detected based on the spatial marker. The intended position of the instrument arm is established from the spatial position and the relative position. The actual position of the instrument arm is detected. The instrument arm is moved into the intended position based on the actual position, the intended position and an error minimization method.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US9241767",
+      "title": "Method for handling an operator command exceeding a medical device state limitation in a medical robotic system",
+      "date": "2016-01-26",
+      "cpc": "A61B34/37, A61B34/30, A61B34/35",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "A medical robotic system has a robotic arm holding a medical device, and a control system for controlling movement of the arm according to operator manipulation of an input device. If the medical device is being commanded to a state exceeding a limitation by a threshold amount, then the control system disengages control of the medical device by the input device, servos the arm so that it remains in its current state, servos the input device so that it is set at a position such that a force being applied on the input device remains at its current level, requests the operator to lighten hold of the input device, sets a parameter associated with the input device upon detecting such lightened hold so that the medical device is commanded to a different state that does not exceed the limitation, and reengages control of the medical device by the input device.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US9439556",
+      "title": "Intelligent autonomous camera control for robotics with medical, military, and space applications",
+      "date": "2016-09-13",
+      "cpc": "B25J9/1682, A61B1/00149, A61B1/00188",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "A system for autonomous camera control includes a first robot having a surgical tool mounted as an end effector and a second robot having a camera mounted as an end effector. A controller may be provided for manipulating the second robot, where the controller stores a first kinematic model for the first robot and a second kinematic model for the second robot. The controller may be configured to automatically manipulate the second robot to position the camera based on the second kinematic model and an expected position of the surgical tool according the first kinematic model of the first robot. The controller is further configured to identify a threshold angle from a viewing axis of the camera, calculate a tool angle from the viewing axis of the camera, and move the camera toward or further away from the tool depending on if the tool angle is greater than or less than the threshold angle.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US9622826",
+      "title": "Medical robotic system providing sensory feedback indicating a difference between a commanded state and a preferred pose of an articulated instrument",
+      "date": "2017-04-18",
+      "cpc": "A61B34/37, A61B34/25, A61B34/30",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "A medical robotic system includes an entry guide with articulated instruments extending out of its distal end. A controller is configured to command manipulation of one of the articulated instruments towards a state commanded by operator manipulation of an input device while commanding sensory feedback to the operator indicating a difference between the commanded state and a preferred pose of the articulated instrument, so that the sensory feedback serves to encourage the operator to return the articulated instrument back to its preferred pose.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US9629520",
+      "title": "Method and system for moving an articulated instrument back towards an entry guide while automatically reconfiguring the articulated instrument for retraction into the entry guide",
+      "date": "2017-04-25",
+      "cpc": "A61B1/00193, A61B1/0055, A61B1/018",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "A medical robotic system includes articulated instruments extending out of a distal end of an entry guide. Prior to pivoting the entry guide to re-orient it and the instruments, the instruments are moved in tandem back towards the entry guide. Haptic cues and velocity limits are provided to assist the operator in the retraction of the instruments. After retraction, the entry guide may then be pivoted without concern that the instruments will harm patient anatomy. The movement of the instruments in tandem back towards the entry guide may also occur through coupled control modes while the entry guide is held in a fixed position and orientation.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US9718190",
+      "title": "Tool position and identification indicator displayed in a boundary area of a computer display screen",
+      "date": "2017-08-01",
+      "cpc": "B25J9/1692, A61B1/00009, A61B1/0005",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "An endoscope captures images of a surgical site for display in a viewing area of a monitor. When a tool is outside the viewing area, a GUI indicates the position of the tool by positioning a symbol in a boundary area around the viewing area so as to indicate the tool position. The distance of the out-of-view tool from the viewing area may be indicated by the size, color, brightness, or blinking or oscillation frequency of the symbol. A distance number may also be displayed on the symbol. The orientation of the shaft or end effector of the tool may be indicated by an orientation indicator superimposed over the symbol, or by the orientation of the symbol itself. When the tool is inside the viewing area, but occluded by an object, the GUI superimposes a ghost tool at its current position and orientation over the occluding object.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US9786202",
+      "title": "Robot assisted surgical training",
+      "date": "2017-10-10",
+      "cpc": "G09B23/28, G09B23/30, G09B23/28",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "A surgical training system and method. The system comprises means for recording reference data representing a reference manipulation of a computer generated model of an object by a master user; means for physically guiding a trainee user based on the recorded reference data during a training manipulation of the model of the object by the trainee user; and means for recording assessment data representing an assessment manipulation of the model of the object by the trainee user without guidance.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "US9788909",
+      "title": "Synthetic representation of a surgical instrument",
+      "date": "2017-10-17",
+      "cpc": "A61B34/20, A61B34/30, A61B34/37",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "A synthetic representation of a tool for display on a user interface of a robotic system. The synthetic representation may be used to show force on the tool, an actual position of the tool, or to show the location of the tool when out of a field of view. A three-dimensional pointer is also provided for a viewer in the surgeon console of a telesurgical system.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "WO2005074303",
+      "title": "STEREOSCOPIC PROJECTION-BASED DISPLAY FOR SURGICAL ROBOT",
+      "date": "2005-08-11",
+      "cpc": "A61B34/35, A61B34/70, A61B90/361",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "A robotic system for broadcasting or telecasting a three-dimensional image from a surgical robot to a screen including at least one video input operatively connected to a surgical robot, at least one projector for receiving and projecting the 3D image from the video input, and a screen for displaying the 3D image from the projector. A method of training surgeons to use a surgical robot by performing a surgical procedure using a surgical robot, transmitting the 3D images seen by the surgeon during surgery to a screen, and viewing the 3D images, thereby training surgeons regarding surgery using the 3D imagery. A method of transmitting a three dimensional image from a surgical robot to a screen by obtaining a 3D image from a surgical robot, transmitting the 3D image to projector, and displaying the 3D image on a screen.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "WO2007114868",
+      "title": "METHOD FOR TRACKING AND REPORTING USAGE EVENTS TO DETERMINE WHEN PREVENTIVE MAINTENANCE IS DUE FOR A MEDICAL ROBOTIC SYSTEM",
+      "date": "2007-10-11",
+      "cpc": "G16H40/40, A61B34/30, A61B34/37",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "A medical robotic system comprises a number of components that may be monitored to determine their preventive maintenance needs by recording usage-related information for the monitored components into associated non-volatile memories. When usage of the component exceeds a specified usage threshold, the system displays a warning message on its display screen to have preventive maintenance performed for the component. If the usage continues without such maintenance and exceeds a higher usage threshold, the system displays an error message on its display screen and the system transitions into an error state during which medical procedures are not allowed to be performed. The usage-related information may also be communicated to a remote computer which gathers and processes usage-related information from a number of medical robotic systems to estimate resource requirements for timely performing preventive maintenance on the medical robotic systems, and anticipated service revenues from such maintenance.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "WO2012060901",
+      "title": "SYSTEM AND METHOD FOR THE EVALUATION OF OR IMPROVEMENT OF MINIMALLY INVASIVE SURGERY SKILLS",
+      "date": "2012-05-10",
+      "cpc": "A61B34/35, A61B2017/00707, G09B23/285",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "A system to assist in at least one of the evaluation of or the improvement of skills to perform minimally invasive surgery includes a minimally invasive surgical system, a video system arranged to record at least one of a user's interaction with the minimally invasive surgical system or tasks performed with the minimally invasive surgical system, and a data storage and processing system in communication with the minimally invasive surgical system and in communication with the video system. The minimally invasive surgical system provides at least one of motion data, ergonomics adjustment data, electrical interface interaction data or mechanical interface interaction data of at least a component of the minimally invasive surgical system in conjunction with time registered video signals from the video system. The data storage and processing system processes the at least one of motion data, ergonomics adjustment data, electrical interface interaction data or mechanical interface interaction data to provide a performance metric in conjunction with the time registered video signals to be made available to an expert for evaluation.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "WO2018148464",
+      "title": "INTRA-OPERATIVE RADIATION THERAPY CAPSULE WITH CYLINDRICAL SHELL RADIATION CONTAINMENT SHUTTER SYSTEM",
+      "date": "2018-08-16",
+      "cpc": "A61B34/35, A61B34/30, A61B90/361",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "This invention proposes a capsule to administer radiation to a patient to be mounted on an arm, preferably a robotic arm such as on and in coordination with a Da Vinci® Surgical Robot, in order to control radiation exposure using a cylindrical shell shutter system designed to minimize leakage from a centrally located radiation source, while permitting full exposure of irradiated subject material or space when the cylindrical shell shutter system is opened. Using a series of concentric cylindrical shells which each contain an offset conically-shaped aperture from that of an adjacent cylindrical shell, when the cylindrical shells rotate into an \"open\" position, the apertures form a smooth cone to an outer emission aperture and expose the radiation source to adjacent tissue. When rotated to be \"closed\" or \"off, the offset apertures and shells occlude the source, preventing full- strength radiation exposure and minimizing radiation leakage.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "WO2019032984",
+      "title": "MEDICAL APPARATUS WITH OPTICAL SENSING, AND RELATED DEVICES AND METHODS",
+      "date": "2019-02-14",
+      "cpc": "A61B17/29, A61B2017/00075, A61B2017/00119",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "A medical apparatus can include an instrument comprising a shaft and a jaw assembly coupled to an end of the shaft; an image capture device; and a controller operably coupled to the image capture device to receive image data from the image capture device. The image data is from images of material gripped between jaw members of the jaw assembly and captured by the image capture device, with the controller programmed to process the received image data using at least one of optical flow and digital image correlation. A medical apparatus can include an instrument comprising a shaft, and a jaw assembly coupled to an end of the shaft, the jaw assembly comprising a pair of jaw members having opposing surfaces configured to grasp material between the opposing surfaces, wherein at least a portion of the opposing surface of a first jaw member of the pair of jaw members is transparent.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "WO2022011177",
+      "title": "HEMOSTASIS METHODS AND APPARATUSES",
+      "date": "2022-01-13",
+      "cpc": "A61B34/30, A61B1/00082, A61B1/015",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "A probe is configured with a flushing port and an evacuation port to establish a flow path to remove blood from a resected tissue. The probe comprises a balloon configured to expand and contact the resected tissue to compress filaments and improve access to the underlying blood vessels for coagulation with an energy source. An endoscope can be used to view the tissue, and the balloon may comprise a transparent material or a viewing port to allow imaging of the bleeding tissue through the balloon. The probe may have a light source to illuminate the tissue with a beam oriented at an oblique angle to the tissue surface, which can decrease interference from blood and may allow more localized coagulation of the blood vessel.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "WO2022109176",
+      "title": "SYSTEMS AND METHODS FOR SURGICAL DATA CENSORSHIP",
+      "date": "2022-05-27",
+      "cpc": "G06V20/35, G06V10/764, G06V10/766",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "Various of the disclosed embodiments relate to systems and methods for processing surgical data to facilitate further downstream operations. For example, some embodiments may include machine learning systems trained to recognize whether video from surgical visualization tools, such as endoscopes, depicts a field of view inside or outside the patient body. The system may excise or whiteout frames of video appearing outside the patient so as to remove potentially compromising personal information, such as the identities of members of the surgical team, the patient's identity, configurations of the surgical theater, etc. Appropriate removal of such non-surgical data may facilitate downstream processing, e.g., by complying with regulatory requirements as well as by removing extraneous data potentially inimical to further downstream processing, such as training a downstream classifier.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "WO2023052931",
+      "title": "SURGICAL SEALING SYSTEMS FOR INSTRUMENT STABILIZATION",
+      "date": "2023-04-06",
+      "cpc": "A61B17/3423, A61B1/00006, A61B1/000094",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "Surgical sealing systems are provided. In one exemplary embodiment, a surgical sealing system includes a seal housing having a plurality of ports, in which each of port has a nominal size and shape, is configured to assume a selected and/or shape that is different from the nominal size and shape, and is constrained by the size and shape of each of the other plurality of ports. The position of an instrument and a force applied thereto is effective to change the size and/or shape of the ports based on the movement, direction, and force of the instrument, and the ability to alter the nominal shape of any one port is constrained or limited by the size and shape of the other ports, thereby enabling a force applied to one instrument positioned within one of the plurality of ports to stabilize at least one other instrument positioned within others of the plurality of ports.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "WO2023052932",
+      "title": "SURGICAL SEALING DEVICES FOR A NATURAL BODY ORIFICE",
+      "date": "2023-04-06",
+      "cpc": "A61B2017/3466, A61B2017/347, A61B17/3423",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "Surgical sealing systems are provided. In one exemplary embodiment, a surgical sealing system includes a seal housing having a plurality of ports, in which each of port has a nominal size and shape, is configured to assume a selected and/or shape that is different from the nominal size and shape, and is constrained by the size and shape of each of the other plurality of ports. The position of an instrument and a force applied thereto is effective to change the size and/or shape of the ports based on the movement, direction, and force of the instrument, and the ability to alter the nominal shape of any one port is constrained or limited by the size and shape of the other ports, thereby enabling a force applied to one instrument positioned within one of the plurality of ports to stabilize at least one other instrument positioned within others of the plurality of ports.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "WO2023052961",
+      "title": "SURGICAL SYSTEMS WITH PORT DEVICES FOR INSTRUMENT CONTROL",
+      "date": "2023-04-06",
+      "cpc": "A61B17/3423, A61B17/3462, A61B34/20",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "Surgical systems are provided. In one exemplary embodiment, a surgical system includes first and second port devices, that are each configured to be at least partially disposed within a body. The first port device includes a first housing defining a first plurality of ports each configured to allow a respective instrument of a first set of instruments to be inserted therethrough. The first port device is configured to interact with at least one respective instrument that is inserted through its respective port. The second port device is configured to interact with at least one respective instrument that is inserted through its respective port. The first and second port devices are each configured to allow at least a portion of the first set of instruments and at least a portion of the second set of instruments to work cooperatively together. Methods for using the same are also provided.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "WO2024118995",
+      "title": "SYSTEMS AND METHODS FOR CONTROLLING SURGICAL SYSTEMS USING NATURAL LANGUAGE",
+      "date": "2024-06-06",
+      "cpc": "G16H20/40, A61B1/00006, A61B34/37",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "Techniques for controlling a surgical system are described. An example method includes identifying at least one keyword in an audible signal; identifying a command among a finite set of predetermined commands based on the at least one keyword; and controlling, based on the command: a camera in a surgical scene based on the command; or a display visually outputting at least one frame captured by the camera.",
+      "claims": "N/A"
+    },
+    {
+      "pub_key": "WO2025058939",
+      "title": "WIPER FOR CLEANING A SURFACE AND CLEANING DEVICES COMPRISING SAME",
+      "date": "2025-03-20",
+      "cpc": "A61B1/126, A61B1/00042, A61B90/70",
+      "tags": "N/A",
+      "lens_id": "N/A",
+      "abstract": "A wiper body for an apparatus adapted to clean an imaging element of a surgical instrument comprises a first arcuate wiper edge segment and a second arcuate wiper edge segment. The first arcuate wiper edge segment has a first direction of curvature. The second arcuate wiper edge segment has a second direction of curvature segment opposite the direction of curvature of the first arcuate wiper edge segment. The second arcuate wiper edge segment extends contiguously from the first arcuate wiper edge segment to jointly define a cleaning edge of the wiper body.",
+      "claims": "N/A"
+    }
+  ]
+}

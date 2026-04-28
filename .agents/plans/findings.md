@@ -1,11 +1,10 @@
-# 🔍 检索结果记录 (BigQuery)
+# 研究发现: medpatent 架构升级
 
-## 🕵️ Search Trace [Date: 2026-04-14]
-- **Tool**: `bigquery-patent-search` (Google BigQuery)
-- **Project ID**: `my-project-gemini-test-485607`
-- **Query**: "3D imaging" AND assignee:"Intuitive Surgical"
-- **Hits**: 10 (limited)
-- **Top 3 Relevance**:
-    1. US-2024350121-A1: Systems and methods for three-dimensional imaging
-    2. US-2022414914-A1: Systems and methods for determining a volume of resected tissue during a surgical procedure
-    3. US-2020022769-A1: Surgical system with haptic feedback based upon quantitative three-dimensional imaging
+## 核心洞察
+- **问题分类**: 数据完整性 (DI), 领域入侵幻觉 (DBH), 状态不一致 (ISD)。
+- **架构决策**: 物理层用 Python 脚本保证 100% 确定性；语义层用 Reviewer Gate 进行冲突检测。
+- **证据三元组**: `{Label, Claim, CPC}` 是打破幻觉的关键锚点。
+
+## 待办记录
+- [ ] 确认专利数据源的 JSON/Markdown 格式，以便编写去重脚本。
+- [ ] 获取 `US20220015832A1` 的 INPADOC 家族 ID 用于测试。

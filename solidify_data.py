@@ -3,11 +3,12 @@ import csv
 import re
 from pathlib import Path
 
-# Paths
-SOURCE_JSON = Path(r"c:\Users\pumch\Desktop\medpatent\.agents\harness\data\search_results\lens_full_report_20260419_182653.json")
-DOWNLOAD_DIR = Path(r"c:\Users\pumch\Desktop\medpatent\downloaded_patents")
-OUTPUT_CSV = Path(r"c:\Users\pumch\Desktop\medpatent\doc\analysis\intuitive_vision_full_claims_all.csv")
-OUTPUT_REPORT = Path(r"c:\Users\pumch\Desktop\medpatent\doc\analysis\intuitive_vision_full_report_all.md")
+# Paths (Relativized)
+BASE_DIR = Path(__file__).parent
+SOURCE_JSON = BASE_DIR / ".agents" / "harness" / "data" / "search_results" / "lens_full_report_20260419_182653.json"
+DOWNLOAD_DIR = BASE_DIR / "downloaded_patents"
+OUTPUT_CSV = BASE_DIR / "doc" / "analysis" / "intuitive_vision_full_claims_all.csv"
+OUTPUT_REPORT = BASE_DIR / "doc" / "analysis" / "intuitive_vision_full_report_all.md"
 
 def extract_claim_texts(obj):
     """Recursively find all claim_text lists in nested Lens JSON."""

@@ -46,6 +46,16 @@ Performs comprehensive automated analysis:
    - **Important**: May cause rejection
    - **Minor**: Best practice improvements
 
+5. **Evidence Triplet Extraction (v2.0)**:
+   - For every technical feature label, the skill MUST extract: `{Label, Source Text, CPC Anchor}`.
+   - This ensures all claims are traceable to specific lines in the patent.
+
+6. **High-Intensity Audit Mode (Collision Protocol)**:
+   - **Trigger**: When a semantic label (e.g., "AI") conflicts with the physical classification (e.g., "Mechanical CPC").
+   - **Logic**: The analyzer MUST search for explicit "Computer Architecture Keywords" in the independent claims.
+   - **Keywords**: "processor", "memory", "algorithm", "neural", "executable", "database", "computing", "software".
+   - **Requirement**: At least TWO keywords must be present to sustain the "AI/Software" label in a mechanical patent.
+
 ## Required Data
 
 This skill uses the automated claims analyzer from:

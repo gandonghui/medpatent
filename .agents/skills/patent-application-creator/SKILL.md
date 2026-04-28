@@ -30,6 +30,24 @@ Orchestrates the complete patent creation workflow:
 6. **Compliance Checking** → Validate USPTO requirements
 7. **IDS Preparation** → List prior art for disclosure
 
+---
+
+## v2.0 Architecture: Rigid Pipeline & Adaptive Verification
+
+### Phase 0: Data Preparation & IR (Rigid Pipeline)
+Before any drafting, the **`patent-data-pipeline`** MUST be invoked to:
+1. **Deduplicate**: 81 -> 59 unique families.
+2. **Baseline Check**: Ensure `US20220015832A1` etc. are present.
+3. **Generate IR**: Create `structured_findings.json` (The System of Record).
+
+### Phase 0.1: Adaptive Verification (Collision Protocol)
+Invoke **`patent-claims-analyzer`** in **High-Intensity Audit** mode to:
+1. Validate technical labels against CPC anchors.
+2. Populate the IR with "Evidence Triplets".
+3. Resolve any "Mechanical vs. AI" conflicts.
+
+---
+
 ## Complete Workflow
 
 ### Phase 1: Discovery & Research (15-30 min)
@@ -138,6 +156,11 @@ Orchestrates the complete patent creation workflow:
    - Validate completeness
 
 **Output**: Complete specification (20-50 pages)
+
+> [!IMPORTANT]
+> **Read-Only Generation Rule**: The generator MUST ONLY use the facts and evidence triplets stored in the `structured_findings.json` (IR). 
+> Do NOT invent new features or generalize technical domains during the writing phase. 
+> If the IR says "Mechanical/Control", do NOT describe it as "AI-Vision".
 
 ---
 
